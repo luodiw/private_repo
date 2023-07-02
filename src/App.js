@@ -8,7 +8,7 @@ import Projects from "./pages/Projects";
 // import AboutQuinnAI from "./pages/blogs/About-QuinnAI";
 // import ASL from "./pages/blogs/ASL";
 import Log from "./pages/Log";
-import Blog from "./pages/blogs/Blogs";
+// import Blog from "./pages/blogs/Blogs";
 import "./index.css";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
@@ -37,8 +37,8 @@ function AppRoutes() {
               <Route path="/" element={<Home />} />
               <Route path="about" element={<About />} />
               <Route path="projects" element={<Projects />} />
-              <Route path="resume" element={<Resume />} />
-              <Route path="quinn-ai" element={<QuinnAI />} />
+              {/*<Route path="resume" element={<Resume />} />*/}
+              {/*<Route path="quinn-ai" element={<QuinnAI />} />*/}
             </Routes>
 
             <Footer />
@@ -82,9 +82,9 @@ function BlogRoutes() {
 
         <div class="flex-container" id="blog">
           <Routes>
-            <Route path="/" element={<Blog />} />
-            <Route path="quinn-ai" element={<AboutQuinnAI />} />
-            <Route path="asl" element={<ASL />} />
+            {/*<Route path="/" element={<Blog />} />*/}
+            {/*<Route path="quinn-ai" element={<AboutQuinnAI />} />*/}
+            {/*<Route path="asl" element={<ASL />} />*/}
           </Routes>
           <Footer />
         </div>
