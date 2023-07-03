@@ -4,7 +4,7 @@ import BlogNavBar from "../components/blog_navbar";
 
 function Log() {
   useEffect(() => {
-    document.title = "quinn's log (/ω＼)";
+    document.title = "what I'm reading now";
   }, []);
 
   return (
@@ -20,7 +20,7 @@ function Log() {
           <u>here</u>
         </NavLink>{" "}
       </p>
-      <hr class="dashed"></hr>
+      {/*<hr class="dashed"></hr>*/}
       <p>
         <b>Mar 2023</b>
         <br />- signed an offer with google for the summer! <br /> -{" "}

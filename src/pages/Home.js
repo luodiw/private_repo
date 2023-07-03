@@ -77,8 +77,8 @@ function Home() {
       </p>
       <p>
         reach out to me anytime at{" "}
-        <a href="mailto:quinnha.hello@gmail.com" class="clickable">
-          quinnha.hello@gmail.com
+        <a href="mailto:lwang4319@gmail.com" class="clickable">
+          lwang4319@gmail.com
         </a>
         ,
         <br />
