@@ -4,13 +4,13 @@ import BlogNavBar from "../components/blog_navbar";
 
 function Log() {
   useEffect(() => {
-    document.title = "what I'm reading now";
+    document.title = "Luodi Wang - Reading";
   }, []);
 
   return (
     <div>
       <div class="flex-container" id="blog_header_card">
-        <h1 id="blog_header">logbook</h1>
+        <h1 id="blog_header">what I'm reading now</h1>
         <BlogNavBar></BlogNavBar>
       </div>
 
