@@ -50,7 +50,7 @@ function useWordCycle(words) {
 
 function Home() {
   useEffect(() => {
-    document.title = "quinn's home (≧∇≦)/";
+    document.title = "Luodi Wang";
   }, []);
 
   const [currentHobby, handleHobbyClick] = useWordCycle(hobbies);
