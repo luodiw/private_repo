@@ -95,8 +95,8 @@ a:active,
 .theme_toggle:visited,
 .theme_toggle:active {
   text-decoration: none;
-  color: #a2a2a8;
-  /*color: var(--color-primary);*/
+  /*color: #a2a2a8;*/
+  color: var(--color-primary);
 
 }
 
