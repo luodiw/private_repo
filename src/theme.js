@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 
 const useTheme = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("sun");
 
   useEffect(() => {
     const currentTheme = localStorage.getItem("theme");
@@ -14,17 +14,17 @@ const useTheme = () => {
         "(prefers-color-scheme: dark)"
       ).matches;
       if (prefersDarkMode) {
-        setTheme("dark");
+        setTheme("moon");
       }
     }
   }, []);
 
   const toggleTheme = () => {
-    const newTheme = theme === "dark" ? "light" : "dark";
+    const newTheme = theme === "moon" ? "sun" : "moon";
     setTheme(newTheme);
     localStorage.setItem("theme", newTheme);
-    document.documentElement.classList.toggle("light");
-    document.documentElement.classList.toggle("dark");
+    document.documentElement.classList.toggle("sun");
+    document.documentElement.classList.toggle("moon");
   };
 
   return [theme, toggleTheme];
