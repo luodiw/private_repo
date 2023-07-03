@@ -8,7 +8,7 @@
 }
 
 .sun {
-  --background-primary: #E2FDFF;
+  --background-primary: white;
   --color-primary: black;
   --color-secondary: rgb(55, 55, 55);
   --color-dash: #99acad;
