@@ -76,13 +76,13 @@ function Home() {
         {/*</a>{" "}*/}
         in upstate ny.
 
-        {/*i'm a student based in Toronto &#127809; where i study software*/}
-        {/*engineering. when i'm not breaking prod at google, i'm learning about*/}
-        accessibility, reading manga, and{" "}
-        <a class="clickable" id="hobbies" onClick={handleHobbyClick}>
-          {currentHobby}
-        </a>
-        .
+        {/*/!*i'm a student based in Toronto &#127809; where i study software*!/*/}
+        {/*/!*engineering. when i'm not breaking prod at google, i'm learning about*!/*/}
+        {/*accessibility, reading manga, and{" "}*/}
+        {/*<a class="clickable" id="hobbies" onClick={handleHobbyClick}>*/}
+        {/*  {currentHobby}*/}
+        {/*</a>*/}
+        {/*.*/}
       </p>
 
       <p>
@@ -90,17 +90,24 @@ function Home() {
           creativity, inspiration, collaboration, efficiency, and
           intuitively express their true inner freedom.
 
-          To achieve this, I care deeply about <i>systems</i>,
-          particularly around <i>distributed systems</i>.
+      </p>
 
+      <p>
+            To achieve this, I care deeply about <i>systems</i>,
+            particularly around <i>distributed systems</i>.
+      </p>
+
+      <p>
           My focus is <i>human interface design</i> to give people
           an epic sense of possibility and a deep appreciation in
           visualizing the stories transmitted. Beauty matters. Details matter.
+      </p>
 
+      <p>
           I’m currently working on single-feature, interoperable applications
           with access to global data.
       </p>
-
+        
       <p>
         reach out to me anytime at{" "}
         <a href="mailto:lwang4319@gmail.com" class="clickable">
