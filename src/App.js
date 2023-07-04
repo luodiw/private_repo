@@ -35,7 +35,7 @@ function AppRoutes() {
           <div class="flex-container" id="content">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="about" element={<About />} />
+              <Route path="footprint" element={<About />} />
               <Route path="projects" element={<Projects />} />
               {/*<Route path="resume" element={<Resume />} />*/}
               {/*<Route path="quinn-ai" element={<QuinnAI />} />*/}
@@ -118,8 +118,8 @@ function App() {
       />
       <Routes>
         <Route path="/*" element={<AppRoutes />} />
-        <Route path="/log/*" element={<LogRoutes />} />
-        <Route path="/blogs/*" element={<BlogRoutes />} />
+        <Route path="/reading/*" element={<LogRoutes />} />
+        {/*<Route path="/blogs/*" element={<BlogRoutes />} />*/}
       </Routes>
     </div>
   );
