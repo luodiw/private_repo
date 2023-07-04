@@ -16,14 +16,14 @@
   --color-reverse: #f5f7fa;
 }
 
-.moon {
-  --background-primary: #121212;
-  --color-primary: #f5f7fa;
-  --color-secondary: rgb(184, 184, 184);
-  --color-dash: #a2a2a8;
-  --background-reverse: #a2a2a8;
-  --color-reverse: black;
-}
+/*.moon {*/
+/*  --background-primary: #121212;*/
+/*  --color-primary: #f5f7fa;*/
+/*  --color-secondary: rgb(184, 184, 184);*/
+/*  --color-dash: #a2a2a8;*/
+/*  --background-reverse: #a2a2a8;*/
+/*  --color-reverse: black;*/
+/*}*/
 
 html {
   background: var(--background-primary);
