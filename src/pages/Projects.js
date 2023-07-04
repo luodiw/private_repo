@@ -10,12 +10,13 @@ function Projects() {
     <div>
       <p>
         {" "}
-        <a href="https://github.com/luodiw" class="clickable" target="_blank">
+        {/*<a href="https://github.com/luodiw" class="clickable" target="_blank">*/}
+        <a href="https://github.com/luodiw">
           [github]
         </a>{" "}
         {/*<nobr>(๑•̀ㅁ•́๑)✧</nobr>*/}
       </p>
-      {/*<hr class="dashed" />*/}
+      <hr class="dashed" />
       <p>
         <NavLink to="/quinn-ai" class="clickable">
           <u>
