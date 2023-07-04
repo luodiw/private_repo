@@ -19,7 +19,7 @@ function NavBar() {
       <nav>
         <NavLink to="/">home</NavLink> <br />
         {/*<NavLink to="/projects">projects</NavLink> <br />*/}
-        <NavLink to="/about">work footprint</NavLink> <br />
+        <NavLink to="/about">footprint</NavLink> <br />
         {/*<NavLink to="/projects">projects</NavLink> <br />*/}
         <NavLink to="/log">reading</NavLink> <br />
         {/*<NavLink to="/resume">resume</NavLink> <br />*/}
