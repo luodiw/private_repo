@@ -159,7 +159,7 @@ a:hover,
 }
 
 #nav_bar {
-  border: 1px solid #a2a2a8;
+  /*border: 1px solid #a2a2a8;*/
   text-align: right;
   max-width: max-content;
   margin-right: 5vh;
@@ -191,7 +191,8 @@ a:hover,
 
 .clickable:hover,
 .credit:hover {
-  color: #a2a2a8 !important;
+  color: #a2a2a8;
+  /*color: #a2a2a8 !important;*/
 }
 
 .credit,
