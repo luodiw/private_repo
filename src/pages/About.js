@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 function About() {
   useEffect(() => {
-    document.title = "quinn's life (〃 ω 〃)";
+    document.title = "Luodi Wang - work footprints";
   }, []);
 
   return (
