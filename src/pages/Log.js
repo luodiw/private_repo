@@ -15,10 +15,15 @@ function Log() {
       </div>
 
       <p>
-        collections of events and adventures, find all blogs{" "}
-        <NavLink to="/blogs" class="clickable">
-          <u>here</u>
-        </NavLink>{" "}
+        follow my journeys on{" "}
+        <a href="https://curius.app/luodi-wang">
+           <u>curius</u>
+        </a>{" "}
+
+        {/*  */}
+        {/*<NavLink to="/blogs" class="clickable">*/}
+        {/*  <u>curius</u>*/}
+        {/*</NavLink>{" "}*/}
       </p>
       {/*<hr class="dashed"></hr>*/}
       <p>
