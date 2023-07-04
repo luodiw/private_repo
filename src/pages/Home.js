@@ -34,19 +34,42 @@ const space = [
   // "string",
 ];
 
+// function useWordCycle(words) {
+//   const [currentWord, setCurrentWord] = useState(
+//     words[Math.floor(Math.random() * words.length)]
+//   );
+//
+//   const handleClick = () => {
+//     const currentIndex = words.indexOf(currentWord);
+//     const nextIndex = (currentIndex + 1) % words.length;
+//     setCurrentWord(words[nextIndex]);
+//   };
+//
+//   return [currentWord, handleClick];
+// }
+
 function useWordCycle(words) {
-  const [currentWord, setCurrentWord] = useState(
-    words[Math.floor(Math.random() * words.length)]
-  );
+    const [currentWord, setCurrentWord] = useState(
+        words[Math.floor(Math.random() * words.length)]
+    );
+    const [usedWords, setUsedWords] = useState([currentWord]);
 
-  const handleClick = () => {
-    const currentIndex = words.indexOf(currentWord);
-    const nextIndex = (currentIndex + 1) % words.length;
-    setCurrentWord(words[nextIndex]);
-  };
+    const handleClick = () => {
+        const availableWords = words.filter(word => !usedWords.includes(word));
+        if (availableWords.length === 0) {
+            // If all words have been used, reset the list
+            setUsedWords([]);
+            setCurrentWord(words[Math.floor(Math.random() * words.length)]);
+        } else {
+            const nextWord = availableWords[Math.floor(Math.random() * availableWords.length)];
+            setUsedWords([...usedWords, nextWord]);
+            setCurrentWord(nextWord);
+        }
+    };
 
-  return [currentWord, handleClick];
+    return [currentWord, handleClick];
 }
+
 
 function Home() {
   useEffect(() => {
