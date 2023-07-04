@@ -2,22 +2,22 @@ import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 const hobbies = [
-  "playing my ukulele",
-  "writing poetry on my substack",
-  "brewing coffee with my v60",
-  "cafe hopping around the city",
-  "pretending to be busy",
-  "walking through cities",
-  "smashing birdies on the court",
-  "shredding a mountain on my snowboard",
-  "playing pump it up",
-  "cooking mapo tofu",
-  "walking through art galleries",
-  "drafting up new songs",
-  "bar hopping through neighbourhoods",
-  "watching super smash bros melee",
-  "trying to get on top of another mountain",
-  "crafting a new spotify playlist",
+  // "playing my ukulele",
+  // "writing poetry on my substack",
+  // "brewing coffee with my v60",
+  // "cafe hopping around the city",
+  // "pretending to be busy",
+  // "walking through cities",
+  // "smashing birdies on the court",
+  // "shredding a mountain on my snowboard",
+  // "playing pump it up",
+  // "cooking mapo tofu",
+  // "walking through art galleries",
+  // "drafting up new songs",
+  // "bar hopping through neighbourhoods",
+  // "watching super smash bros melee",
+  // "trying to get on top of another mountain",
+  // "crafting a new spotify playlist",
 ];
 
 const space = [
@@ -113,7 +113,7 @@ function Home() {
         {/*<a href="mailto:lwang4319@gmail.com" class="clickable">*/}
         {/*  lwang4319@gmail.com*/}
         {/*</a>*/}
-        ,
+        {/*,*/}
         {/*<br />*/}
         {/*or ask{" "}*/}
         {/*<NavLink to="/quinn-ai" class="clickable">*/}
