@@ -64,7 +64,7 @@ function Home() {
         <a class="clickable" id="corner" onClick={handleSpaceClick}>
           {currentSpace}
         </a>{" "}
-        {/*of the internet!*/}
+        .
       </p>
       <p>
         i'm a student based in Toronto &#127809; where i study software
