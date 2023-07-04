@@ -21,17 +21,17 @@ const hobbies = [
 ];
 
 const space = [
-  "corner",
-  "fragment",
-  "sliver",
-  "pocket",
-  "section",
-  "node",
-  "slice",
-  "shard",
-  "bit",
-  "piece",
-  "string",
+  "software engineer",
+  "researcher in ML, robotics, parallel computing",
+  "mobile developer",
+  "product designer",
+  // "",
+  // "node",
+  // "slice",
+  // "shard",
+  // "bit",
+  // "piece",
+  // "string",
 ];
 
 function useWordCycle(words) {
@@ -58,9 +58,9 @@ function Home() {
 
   return (
     <div>
-      <h2>i'm quinn!</h2>
+      <h2>Luodi Wang</h2>
       <p>
-        welcome to my little{" "}
+        I'm a {" "}
         <a class="clickable" id="corner" onClick={handleSpaceClick}>
           {currentSpace}
         </a>{" "}
