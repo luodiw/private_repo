@@ -22,7 +22,7 @@ const hobbies = [
 
 const space = [
   "software engineer",
-  "researcher in ML, robotics, parallel computing",
+  "researcher in virtual reality and robotics, ML, parallel computing",
   "mobile developer",
   "product designer",
   // "",
@@ -63,7 +63,7 @@ function Home() {
         I'm a {" "}
         <a class="clickable" id="corner" onClick={handleSpaceClick}>
           {currentSpace}
-        </a>{" "}
+        </a>
         .
       </p>
       <p>
@@ -74,27 +74,45 @@ function Home() {
         {/*<a href="https://www.union.edu" className="clickable">*/}
         {/*  Union College*/}
         {/*</a>{" "}*/}
-        in upstate ny. I work on
-        i'm a student based in Toronto &#127809; where i study software
-        engineering. when i'm not breaking prod at google, i'm learning about
+        in upstate ny.
+
+        {/*i'm a student based in Toronto &#127809; where i study software*/}
+        {/*engineering. when i'm not breaking prod at google, i'm learning about*/}
         accessibility, reading manga, and{" "}
         <a class="clickable" id="hobbies" onClick={handleHobbyClick}>
           {currentHobby}
         </a>
         .
       </p>
+
+      <p>
+          I work on ambitious software to help people evoke and enhance
+          creativity, inspiration, collaboration, efficiency, and
+          intuitively express their true inner freedom.
+
+          To achieve this, I care deeply about <i>systems</i>,
+          particularly around <i>distributed systems</i>.
+
+          My focus is <i>human interface design</i> to give people
+          an epic sense of possibility and a deep appreciation in
+          visualizing the stories transmitted. Beauty matters. Details matter.
+
+          I’m currently working on single-feature, interoperable applications
+          with access to global data.
+      </p>
+
       <p>
         reach out to me anytime at{" "}
         <a href="mailto:lwang4319@gmail.com" class="clickable">
           lwang4319@gmail.com
         </a>
         ,
-        <br />
-        or ask{" "}
-        <NavLink to="/quinn-ai" class="clickable">
-          <u>my ai</u>
-        </NavLink>{" "}
-        a question!
+        {/*<br />*/}
+        {/*or ask{" "}*/}
+        {/*<NavLink to="/quinn-ai" class="clickable">*/}
+        {/*  <u>my ai</u>*/}
+        {/*</NavLink>{" "}*/}
+        {/*a question!*/}
       </p>
     </div>
   );
