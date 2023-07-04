@@ -16,7 +16,7 @@ function Log() {
 
       <p>
         follow my journeys on{" "}
-        <a href="https://curius.app/luodi-wang">
+        <a href="https://curius.app/luodi-wang" target="_blank">
            <u>curius</u>
         </a>{" "}
 
