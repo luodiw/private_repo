@@ -27,7 +27,13 @@ function Log() {
       </p>
       {/*<hr class="dashed"></hr>*/}
       <p>
-        <b>Mar 2023</b>
+          <ul>
+              <li>First item</li>
+              <li>Second item</li>
+              <li>Third item</li>
+          </ul>
+          
+          <b>Mar 2023</b>
         <br />- signed an offer with google for the summer! <br /> -{" "}
         <NavLink to="/blogs/quinn-ai" class="clickable">
           <u>[blog]</u>
