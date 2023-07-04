@@ -94,7 +94,7 @@ function Home() {
 
       <p>
             To achieve this, I care deeply about <i>systems</i>,
-            particularly around <i>distributed systems</i>.
+            particularly <i>distributed systems</i>.
       </p>
 
       <p>

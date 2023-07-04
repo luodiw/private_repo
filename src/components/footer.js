@@ -28,8 +28,9 @@ function Footer() {
         <a
            href= "mailto:lwang1289@gmail.com"
            target="_blank"
+           // className="fa-solid fa-paper-plane"
            className="fa-solid fa-paper-plane"
-        >
+          >
            {" "}
         </a>
 
