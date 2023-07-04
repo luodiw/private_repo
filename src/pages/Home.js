@@ -67,9 +67,10 @@ function Home() {
         .
       </p>
       <p>
-        I study computer science and mathematics at
-        <a href="union.edu" className="clickable">
+        I study computer science and mathematics at {currentSpace}
+        <a href="https://www.union.edu" className="clickable">
           Union College
+          {currentSpace}
         </a>
         in upstate ny.
         i'm a student based in Toronto &#127809; where i study software
