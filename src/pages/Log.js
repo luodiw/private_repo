@@ -10,7 +10,7 @@ function Log() {
   return (
     <div>
       <div class="flex-container" id="blog_header_card">
-        <h5 id="blog_header">what I'm reading now</h5>
+        <h4 id="blog_header">what I'm reading now</h4>
         <BlogNavBar></BlogNavBar>
       </div>
 
