@@ -110,9 +110,9 @@ function Home() {
 
       <p>
         {" "}
-        <a href="mailto:lwang4319@gmail.com" class="clickable">
-          lwang4319@gmail.com
-        </a>
+        {/*<a href="mailto:lwang4319@gmail.com" class="clickable">*/}
+        {/*  lwang4319@gmail.com*/}
+        {/*</a>*/}
         ,
         {/*<br />*/}
         {/*or ask{" "}*/}
