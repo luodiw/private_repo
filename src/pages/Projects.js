@@ -9,8 +9,8 @@ function Projects() {
   return (
     <div>
       <p>
-        some projects, find the rest on my{" "}
-        <a href="https://github.com/quinnha" class="clickable" target="_blank">
+        {" "}
+        <a href="https://github.com/luodiw" class="clickable" target="_blank">
           github
         </a>{" "}
         <nobr>(๑•̀ㅁ•́๑)✧</nobr>
