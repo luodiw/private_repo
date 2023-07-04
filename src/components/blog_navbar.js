@@ -22,16 +22,16 @@ function BlogNavBar() {
           | <NavLink to="/projects">projects</NavLink> |{" "}
           <NavLink to="/log">reading</NavLink> |{" "}
           {/*<NavLink to="/resume">resume</NavLink> |{" "}*/}
-          <CSSTransition
-            in={visible}
-            appear={true}
-            timeout={500}
-            classNames="fadeIn"
-          >
-            <a onClick={handleThemeChange} className="fadeIn">
-              {theme}
-            </a>
-          </CSSTransition>
+          {/*<CSSTransition*/}
+          {/*  in={visible}*/}
+          {/*  appear={true}*/}
+          {/*  timeout={500}*/}
+          {/*  classNames="fadeIn"*/}
+          {/*>*/}
+          {/*  <a onClick={handleThemeChange} className="fadeIn">*/}
+          {/*    {theme}*/}
+          {/*  </a>*/}
+          {/*</CSSTransition>*/}
         </nobr>
       </nav>
     </div>

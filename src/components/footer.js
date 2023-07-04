@@ -24,7 +24,6 @@ function Footer() {
         >
           {" "}
         </a>
-
         <a
            href= "mailto:lwang1289@gmail.com"
            target="_blank"
