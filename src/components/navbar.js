@@ -6,12 +6,12 @@ import { CSSTransition } from "react-transition-group";
 
 function NavBar() {
   const [theme, toggleTheme] = useTheme();
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(false);
 
   const handleThemeChange = () => {
     toggleTheme();
-    setVisible(false);
-    setTimeout(() => setVisible(true), 0);
+    setVisible(true);
+    setTimeout(() => setVisible(false), 0);
   };
 
   return (
