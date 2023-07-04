@@ -67,11 +67,13 @@ function Home() {
         .
       </p>
       <p>
-        I study computer science and mathematics at {currentSpace}
-        <a href="https://www.union.edu" className="clickable">
+        I study computer science and mathematics at {" "}
+        <a href="https://www.union.edu">
           Union College
-          {currentSpace}
-        </a>
+        </a>{" "}
+        {/*<a href="https://www.union.edu" className="clickable">*/}
+        {/*  Union College*/}
+        {/*</a>{" "}*/}
         in upstate ny.
         i'm a student based in Toronto &#127809; where i study software
         engineering. when i'm not breaking prod at google, i'm learning about
