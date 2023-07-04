@@ -2,7 +2,7 @@
   --background-primary: #ffffff;
   --color-primary: black;
   --color-secondary: rgb(55, 55, 55);
-  --color-dash: #99acad;
+  --color-dash: #a2a2a8;
   --background-reverse: #121212;
   --color-reverse: #f5f7fa;
 }
@@ -159,7 +159,7 @@ a:hover,
 }
 
 #nav_bar {
-  /* border: 1px solid #9BB1FF; */
+  border: 1px solid #a2a2a8;
   text-align: right;
   max-width: max-content;
   margin-right: 5vh;
