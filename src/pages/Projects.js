@@ -9,9 +9,9 @@ function Projects() {
   return (
     <div>
       <p>
-        [{" "}]
+        {" "}
         <a href="https://github.com/luodiw" class="clickable" target="_blank">
-          github
+          [github]
         </a>{" "}
         {/*<nobr>(๑•̀ㅁ•́๑)✧</nobr>*/}
       </p>
