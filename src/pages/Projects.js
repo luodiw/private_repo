@@ -15,7 +15,7 @@ function Projects() {
         </a>{" "}
         {/*<nobr>(๑•̀ㅁ•́๑)✧</nobr>*/}
       </p>
-      <hr class="dashed" />
+      {/*<hr class="dashed" />*/}
       <p>
         <NavLink to="/quinn-ai" class="clickable">
           <u>
