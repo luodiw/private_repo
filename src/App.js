@@ -119,7 +119,7 @@ function App() {
       <Routes>
         <Route path="/*" element={<AppRoutes />} />
         <Route path="/log/*" element={<LogRoutes />} />
-        {/*<Route path="/blogs/*" element={<BlogRoutes />} />*/}
+        <Route path="/blogs/*" element={<BlogRoutes />} />
       </Routes>
     </div>
   );
