@@ -24,6 +24,14 @@ function Footer() {
         >
           {" "}
         </a>
+
+        <a
+           href= "mailto:lwang4319@gmail.com"
+           target="_blank"
+           className="fa fa-email fa-lg"
+        >
+           {" "}
+        </a>
         {/*<a*/}
         {/*  href="https://www.instagram.com/qh.music/"*/}
         {/*  target="_blank"*/}

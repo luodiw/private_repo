@@ -107,9 +107,9 @@ function Home() {
           I’m currently working on single-feature, interoperable applications
           with access to global data.
       </p>
-        
+
       <p>
-        reach out to me anytime at{" "}
+        {" "}
         <a href="mailto:lwang4319@gmail.com" class="clickable">
           lwang4319@gmail.com
         </a>
