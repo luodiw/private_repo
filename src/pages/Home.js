@@ -22,7 +22,7 @@ const hobbies = [
 
 const space = [
   "software engineer",
-  "researcher in virtual reality and robotics, ML, parallel computing",
+  "researcher in ML, virtual reality and robotics, parallel computing",
   "mobile developer",
   "product designer",
   // "",
@@ -116,7 +116,7 @@ function Home() {
       </p>
 
       <p>
-          It makes me care deeply about <i>systems</i>,
+          Towards making an impact, it has me care deeply about <i>systems</i>,
           particularly <i>distributed systems</i>.
       </p>
 

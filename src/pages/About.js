@@ -12,49 +12,49 @@ function About() {
       {/*  <nobr>─=≡Σ((( つ•̀ω•́)つLET’S GO!</nobr>*/}
       {/*</p>*/}
 
-      <hr class="dashed" />
+      {/*<hr class="dashed" />*/}
 
       <p>
-        hey hey hey! i'm someone who's a bit all over the place. i love all
-        things tech, art, fashion, walkable cities, food, and so much more.
-        sometimes i feel like a sponge, going around and learning as much as i
-        can from the amazing people around me &#129533;.
+        I've been lucky to work with some of the most passionate, smartest people spearheading
+        nascent fields to advance humanity!
         <br />
         <br />
-        i'm a serial hobby hopper, i dabble in the arts, i stay fit, and i'm
-        currently on the quest for a perfect cup of coffee. my existence in so
-        many things really helped shape the learner that i am today, and the one
-        i'll be tomorrow!
+        {/*i'm a serial hobby hopper, i dabble in the arts, i stay fit, and i'm*/}
+        {/*currently on the quest for a perfect cup of coffee. my existence in so*/}
+        {/*many things really helped shape the learner that i am today, and the one*/}
+        {/*i'll be tomorrow!*/}
       </p>
 
       <p> </p>
 
       <p>
-        <b>currently</b>
+        <b>Currently</b>
       </p>
       <p>
-        i'm a 3rd year student at{" "}
-        <a href="https://www.mcmaster.ca/" target="_blank" class="clickable">
-          McMaster University
-        </a>
-        , leading undergrad computing and engineering labs.
-        <br />
-        <br />
-        i'm interested in accessibility, security, and all creative
-        intersections of tech and art &#127912;.
-        <br />
-        <br />
-        this summer i'll be working at{" "}
-        <a href="https://about.google/" target="_blank" class="clickable">
-          Google
-        </a>{" "}
-        to make docs, sheets, and slides more accessible 🦯!
-        <br />
-        <br />
-        if you're in nyc, let's grab a coffee together :)
-        {/* <br /> */}
-        {/* no plans this summer yet, still looking for an internship that
-        will help me grow and have an impact on something i care about! */}
+          <b>swe intern @Fidelity Investments</b>
+          <br />- working on the future of work. making AI/ML recommendation systems, APIs, ios & android dev
+        {/*i'm a 3rd year student at{" "}*/}
+        {/*<a href="https://www.mcmaster.ca/" target="_blank" class="clickable">*/}
+        {/*  McMaster University*/}
+        {/*</a>*/}
+        {/*, leading undergrad computing and engineering labs.*/}
+        {/*<br />*/}
+        {/*<br />*/}
+        {/*i'm interested in accessibility, security, and all creative*/}
+        {/*intersections of tech and art &#127912;.*/}
+        {/*<br />*/}
+        {/*<br />*/}
+        {/*this summer i'll be working at{" "}*/}
+        {/*<a href="https://about.google/" target="_blank" class="clickable">*/}
+        {/*  Google*/}
+        {/*</a>{" "}*/}
+        {/*to make docs, sheets, and slides more accessible 🦯!*/}
+        {/*<br />*/}
+        {/*<br />*/}
+        {/*if you're in nyc, let's grab a coffee together :)*/}
+        {/*/!* <br /> *!/*/}
+        {/*/!* no plans this summer yet, still looking for an internship that*/}
+        {/*will help me grow and have an impact on something i care about! *!/*/}
       </p>
 
       <p> </p>
