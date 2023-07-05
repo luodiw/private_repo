@@ -27,7 +27,7 @@ function Log() {
       </p>
       {/*<hr class="dashed"></hr>*/}
       <p>
-          <b><h2> currently reading </h2> </b>
+          <b><h5> currently reading </h5> </b>
       </p>
       <p>
           <ul>
@@ -50,7 +50,7 @@ function Log() {
       <p />
 
       <p>
-          <b><h2> books I read over and over again </h2> </b>
+          <b><h5> books I read over and over again </h5> </b>
           <ul>
               <li> <i> Meditations </i>- Marcus Aurelius</li>
               <li> <i> The Lion Tracker's Guide to Life </i>- Boyd Varty</li>

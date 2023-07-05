@@ -110,14 +110,14 @@ function Home() {
 
       <p>
           I work on ambitious software to help people evoke and enhance
-          creativity, inspiration, collaboration, efficiency, and
+          creativity, collaboration, efficiency, and
           intuitively express their true inner freedom.
 
       </p>
 
       <p>
-            To achieve this, I care deeply about <i>systems</i>,
-            particularly <i>distributed systems</i>.
+          It makes me care deeply about <i>systems</i>,
+          particularly <i>distributed systems</i>.
       </p>
 
       <p>
@@ -127,8 +127,7 @@ function Home() {
       </p>
 
       <p>
-          I’m currently working on single-feature, interoperable applications
-          with access to global data.
+          currently: developing turing complete apps, open sourcing the brain, defi remittances
       </p>
 
       <p>
