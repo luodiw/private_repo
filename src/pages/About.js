@@ -33,10 +33,15 @@ function About() {
         <b>Currently</b>
       </p>
       <p>
-          <dl>
-              <dt> swe intern @Fidelity Investments </dt>
-              <dd> -working on the future of work. making AI/ML recommendation systems, APIs, ios & android dev</dd>
-          </dl>
+          {/*<dl>*/}
+          {/*    <dt> swe intern @Fidelity Investments </dt>*/}
+          {/*    <dd> -working on the future of work. making AI/ML recommendation systems, APIs, ios & android dev</dd>*/}
+          {/*</dl>*/}
+
+          <ul>
+              <dt> <li> swe intern @Fidelity Investments </li> </dt>
+              <dd> working on the future of work. making AI/ML recommendation systems, APIs, ios & android dev </dd>
+          </ul>
           {/*<b>swe intern @Fidelity Investments</b>*/}
           {/*{" "}*/}
           {/*<br />- working on the future of work. making AI/ML recommendation systems, APIs, ios & android dev*/}
