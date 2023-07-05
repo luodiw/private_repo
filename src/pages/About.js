@@ -15,9 +15,11 @@ function About() {
       {/*<hr class="dashed" />*/}
 
       <p>
-        I've been lucky to work with some of the most passionate, smartest people spearheading
-        nascent fields to advance humanity!
+
         <br />
+          <h4>
+              previously
+          </h4>
         <br />
         {/*i'm a serial hobby hopper, i dabble in the arts, i stay fit, and i'm*/}
         {/*currently on the quest for a perfect cup of coffee. my existence in so*/}
