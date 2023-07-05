@@ -27,7 +27,7 @@ function Log() {
       </p>
       {/*<hr class="dashed"></hr>*/}
       <p>
-          <b style="color:red;"> currently reading </b>
+          <b> currently reading </b>
           <ul>
               <li> <i> Just for Fun </i>- Linus Torvalds</li>
               <li> <i> The Kill Chain </i>- Christian Brose</li>
