@@ -16,11 +16,11 @@ function About() {
 
       <p>
 
-        <br />
-          <h4>
-              previously
-          </h4>
-        <br />
+        {/*<br />*/}
+        {/*  <h4>*/}
+        {/*      previously*/}
+        {/*  </h4>*/}
+        {/*<br />*/}
         {/*i'm a serial hobby hopper, i dabble in the arts, i stay fit, and i'm*/}
         {/*currently on the quest for a perfect cup of coffee. my existence in so*/}
         {/*many things really helped shape the learner that i am today, and the one*/}
@@ -34,7 +34,7 @@ function About() {
       </p>
       <p>
           <b>swe intern @Fidelity Investments</b>
-          {""}
+          {" "}
           <br />- working on the future of work. making AI/ML recommendation systems, APIs, ios & android dev
         {/*i'm a 3rd year student at{" "}*/}
         {/*<a href="https://www.mcmaster.ca/" target="_blank" class="clickable">*/}
@@ -63,7 +63,7 @@ function About() {
       <p> </p>
 
       <p>
-        <b>previously</b>
+        <b>Previously</b>
       </p>
       <p>did some internships:</p>
       <ul>
