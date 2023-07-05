@@ -34,10 +34,8 @@ function About() {
       </p>
       <p>
           <dl>
-              <dt><b>swe intern @Fidelity Investments</b></dt>
-              <br />
-              <br />
-              <dd> working on the future of work. making AI/ML recommendation systems, APIs, ios & android dev</dd>
+              <dt> swe intern @Fidelity Investments </dt>
+              <dd> -working on the future of work. making AI/ML recommendation systems, APIs, ios & android dev</dd>
           </dl>
           {/*<b>swe intern @Fidelity Investments</b>*/}
           {/*{" "}*/}
@@ -71,7 +69,12 @@ function About() {
       <p>
         <b>Previously</b>
       </p>
-      <p>did some internships:</p>
+      {/*<p>did some internships:</p>*/}
+        <dl>
+            <dt><b>swe intern @Fidelity Investments</b></dt>
+            <dd> working on the future of work. making AI/ML recommendation systems, APIs, ios & android dev</dd>
+        </dl>
+
       <ul>
         <li>
           wrote some NASA code for the Canadian Space Agency (
@@ -107,8 +110,12 @@ function About() {
           )
         </li>
       </ul>
-      <p></p>
-      <p>and did some clubs:</p>
+      <p>hackathons: </p>
+        <ul>
+
+        </ul>
+
+      <p>outside of swe:</p>
       <ul>
         <li>
           wrote some satellite code for{" "}
