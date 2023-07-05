@@ -127,7 +127,7 @@ function Home() {
       </p>
 
       <p>
-          currently: developing turing complete apps, open sourcing the brain, defi remittances
+          Currently: developing turing complete apps, open sourcing the brain, defi remittances
       </p>
 
       <p>
