@@ -26,8 +26,10 @@ function Log() {
         {/*</NavLink>{" "}*/}
       </p>
       {/*<hr class="dashed"></hr>*/}
-      <p>
+      <p style="color:red;">
           <b> currently reading </b>
+      </p>
+      <p>
           <ul>
               <li> <i> Just for Fun </i>- Linus Torvalds</li>
               <li> <i> The Kill Chain </i>- Christian Brose</li>
@@ -45,15 +47,15 @@ function Log() {
         {/*to the website*/}
       </p>
       <p />
-        <p>
-            <b> <h3> books that have  </h3> </b>
-            <ul>
+      <p>
+        <b> <h3> books that have  </h3> </b>
+          <ul>
                 <li> <i> Just for Fun </i>- Linus Torvalds</li>
                 <li> <i> The Kill Chain </i>- Christian Brose</li>
                 <li><i> Inventor of the Future </i>- Alec Nevala-Lee</li>
                 <li><i> Dune </i>- Frank Herbert</li>
-            </ul>
-        </p>
+          </ul>
+      </p>
       {/*<p>*/}
       {/*  <b>Feb 2023</b>*/}
       {/*  <br />- created this website!*/}
