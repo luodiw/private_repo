@@ -26,15 +26,16 @@ function Log() {
         {/*</NavLink>{" "}*/}
       </p>
       {/*<hr class="dashed"></hr>*/}
-      <p style="color:red;">
-          <b> currently reading </b>
+      <p>
+          <b><h2> currently reading </h2> </b>
       </p>
       <p>
           <ul>
               <li> <i> Just for Fun </i>- Linus Torvalds</li>
-              <li> <i> The Kill Chain </i>- Christian Brose</li>
-              <li><i> Inventor of the Future </i>- Alec Nevala-Lee</li>
+              <li> <i> The Kill Chain Defending America in the Future of High-Tech Warfare</i>- Christian Brose</li>
               <li><i> Dune </i>- Frank Herbert</li>
+              <li><i> The Alignment Problem </i>- Brian Christian</li>
+
           </ul>
         {/*<br />- signed an offer with google for the summer! <br /> -{" "}*/}
         {/*<NavLink to="/blogs/quinn-ai" class="clickable">*/}
@@ -47,13 +48,27 @@ function Log() {
         {/*to the website*/}
       </p>
       <p />
+
       <p>
-        <b> <h3> books that have  </h3> </b>
+          <b><h2> books I read over and over again </h2> </b>
           <ul>
-                <li> <i> Just for Fun </i>- Linus Torvalds</li>
-                <li> <i> The Kill Chain </i>- Christian Brose</li>
-                <li><i> Inventor of the Future </i>- Alec Nevala-Lee</li>
-                <li><i> Dune </i>- Frank Herbert</li>
+              <li> <i> Meditations </i>- Marcus Aurelius</li>
+              <li> <i> The Lion Tracker's Guide to Life </i>- Boyd Varty</li>
+              <li> <i> High Growth Handbook </i>- Elad Gil</li>
+              <li> <i> Can't Hurt Me </i>- David Goggins</li>
+              <li> <i> The Compound Effect </i>- Darren Hardy</li>
+              <li> <i> The Infinite Machine </i>- Camila Russo</li>
+              <li> <i> Aiming High A Biography of Masa Son </i>- Atsuo Inoue</li>
+              <li> <i> Love Yourself Like Your Life Depends on It </i>- Kamal Ravikant</li>
+              <li> <i> After Steve </i>- Tripp Mickle</li>
+              <li><i> Zero to One </i>- Peter Thiel </li>
+              <li><i> Be Here Now </i>- Ram Dass</li>
+              <li><i> The Almananck of Naval Ravikant </i></li>
+              <li><i> Business Adventures </i>- John Brooks </li>
+              <li><i> Skin in the Game </i>- Nassim Nicholas Taleb </li>
+              <li><i> Infinite Powers</i>- Steven Strogatz</li>
+              <li><i> Twelve Against Gods </i>- William Bolitho</li>
+              <li><i> Amp It Up </i>- Frank Slootman </li>
           </ul>
       </p>
       {/*<p>*/}
