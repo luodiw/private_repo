@@ -16,7 +16,7 @@ function About() {
 
       <p>
 
-        {/*<br />*/}
+        <br />
         {/*  <h4>*/}
         {/*      previously*/}
         {/*  </h4>*/}
@@ -35,7 +35,9 @@ function About() {
       <p>
           <dl>
               <dt><b>swe intern @Fidelity Investments</b></dt>
-              <dd>- working on the future of work. making AI/ML recommendation systems, APIs, ios & android dev</dd>
+              <br />
+              <br />
+              <dd> working on the future of work. making AI/ML recommendation systems, APIs, ios & android dev</dd>
           </dl>
           {/*<b>swe intern @Fidelity Investments</b>*/}
           {/*{" "}*/}
