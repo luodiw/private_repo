@@ -32,6 +32,7 @@ function About() {
       </p>
       <p>
           <b>swe intern @Fidelity Investments</b>
+          {""}
           <br />- working on the future of work. making AI/ML recommendation systems, APIs, ios & android dev
         {/*i'm a 3rd year student at{" "}*/}
         {/*<a href="https://www.mcmaster.ca/" target="_blank" class="clickable">*/}
