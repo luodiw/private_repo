@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import BlogNavBar from "../components/blog_navbar";
 
 function About() {
   useEffect(() => {
