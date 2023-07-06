@@ -9,7 +9,7 @@ function About() {
   return (
     <div>
       <div class="flex-container" id="blog_header_card">
-        <h1 id="blog_header">footprints of my work</h1>
+        <h4 id="blog_header">my work footprints</h4>
         <BlogNavBar></BlogNavBar>
       </div>
       {/*<img src="/me.jpg" alt="it's me!" width="200" height="auto" />*/}
