@@ -8,6 +8,7 @@ function Projects() {
 
   return (
     <div>
+      <img src="/james_turrell_skyspace.jpg" alt="it's me!" width="200" height="auto" />
       <p>
         {" "}
         {/*<a href="https://github.com/luodiw" class="clickable" target="_blank">*/}
@@ -17,6 +18,8 @@ function Projects() {
         {/*<nobr>(๑•̀ㅁ•́๑)✧</nobr>*/}
       </p>
       <hr class="dashed" />
+      
+      
       <p>
         <NavLink to="/quinn-ai" class="clickable">
           <u>
