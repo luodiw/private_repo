@@ -178,12 +178,26 @@ function About() {
         </li>
       </ul> */}
 
-      <p>hackathons: </p>
+      <p>hackathons:
         <ul>
+        <li> <a
+            href="https://prosperity.imc.com/"
+            class="clickable"
+            target="_blank"
+          >
+            IMC Prosperity
+          </a>
+          (top 5%/8,000 teams)
+          </li>
+          
 
+
+          <li>2020 Alibaba Global Math Competition DAMO Finalist</li>
         </ul>
 
-      <p>outside of swe
+      </p>  
+
+      <p>outside of swe:
         <ul>
           <li>did dApps privacy research & growth @Oasis Protocol</li>
           <li>2x venture fellow</li>
