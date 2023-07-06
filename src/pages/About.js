@@ -45,43 +45,6 @@ function About() {
       </p>
       <p />
 
-      <p>
-          {/*<dl>*/}
-          {/*    <dt> swe intern @Fidelity Investments </dt>*/}
-          {/*    <dd> -working on the future of work. making AI/ML recommendation systems, APIs, ios & android dev</dd>*/}
-          {/*</dl>*/}
-
-          <ul>
-              <dt> <li> swe intern @Fidelity Investments </li> </dt>
-              <dd> working on the future of work. making AI/ML recommendation systems, APIs, ios & android dev </dd>
-          </ul>
-          {/*<b>swe intern @Fidelity Investments</b>*/}
-          {/*{" "}*/}
-          {/*<br />- working on the future of work. making AI/ML recommendation systems, APIs, ios & android dev*/}
-        {/*i'm a 3rd year student at{" "}*/}
-        {/*<a href="https://www.mcmaster.ca/" target="_blank" class="clickable">*/}
-        {/*  McMaster University*/}
-        {/*</a>*/}
-        {/*, leading undergrad computing and engineering labs.*/}
-        {/*<br />*/}
-        {/*<br />*/}
-        {/*i'm interested in accessibility, security, and all creative*/}
-        {/*intersections of tech and art &#127912;.*/}
-        {/*<br />*/}
-        {/*<br />*/}
-        {/*this summer i'll be working at{" "}*/}
-        {/*<a href="https://about.google/" target="_blank" class="clickable">*/}
-        {/*  Google*/}
-        {/*</a>{" "}*/}
-        {/*to make docs, sheets, and slides more accessible 🦯!*/}
-        {/*<br />*/}
-        {/*<br />*/}
-        {/*if you're in nyc, let's grab a coffee together :)*/}
-        {/*/!* <br /> *!/*/}
-        {/*/!* no plans this summer yet, still looking for an internship that*/}
-        {/*will help me grow and have an impact on something i care about! *!/*/}
-      </p>
-
       <p> </p>
 
       <p>
