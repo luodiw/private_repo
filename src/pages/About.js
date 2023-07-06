@@ -39,9 +39,7 @@ function About() {
       </p>
 
       <p>
-      <ul>
-        <li> <b>swe intern @Fidelity Investments</b> </li>
-      </ul>  
+        <b>swe intern @Fidelity Investments</b>
         <br />- working on the future of work. 
         <br />- making AI/ML recommendation systems, APIs, ios & android dev
       </p>
