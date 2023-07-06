@@ -74,10 +74,14 @@ function About() {
       <p>
         <b>Previously</b>
       </p>
-      {/*<p>did some internships:</p>*/}
+      <p>internships: </p>
+        
+
+
+      <p>cs research:</p>
       <p>
           <ul>
-              <dt> <li> Summer Research Fellowship @Union College, NY {" "}
+              <dt> <li> summer research fellowship @Union College, NY {" "}
               <a
                   href="https://www.union.edu/news/stories/202207/summer-research-projects-2022"
                   className="clickable"
@@ -90,22 +94,24 @@ function About() {
               </dt>
               <dd> wrote </dd>
           </ul>
-
-          {/*<dl>*/}
-          {/*    <dt> <li> Summer Research Fellowship @Union College, NY {" "}*/}
-          {/*        <a*/}
-          {/*            href="https://www.union.edu/news/stories/202207/summer-research-projects-2022"*/}
-          {/*            className="clickable"*/}
-          {/*            target="_blank"*/}
-          {/*        >*/}
-          {/*            (research*/}
-          {/*        </a>*/}
-          {/*        )*/}
-          {/*    </li> </dt>*/}
-          {/*    <dd> wrote </dd>*/}
-          {/*</dl>*/}
       </p>
 
+        <p>
+            <ul>
+                <dt> <li> cs research lab, NY {" "}
+                    <a
+                        href="https://www.union.edu/news/stories/202207/summer-research-projects-2022"
+                        className="clickable"
+                        target="_blank"
+                    >
+                        (research
+                    </a>
+                    )
+                </li>
+                </dt>
+                <dd> wrote </dd>
+            </ul>
+        </p>
 
       <ul>
         <li>
@@ -142,41 +148,42 @@ function About() {
           )
         </li>
       </ul>
+
       <p>hackathons: </p>
         <ul>
 
         </ul>
 
       <p>outside of swe:</p>
-      <ul>
-        <li>
-          wrote some satellite code for{" "}
-          <a
-            href="https://mcmasterneudose.ca/"
-            target="_blank"
-            class="clickable"
-          >
-            McMaster NEUDOSE
-          </a>
-        </li>
-        <li>
-          led the marketing team for the biggest design competition in 2021 with
-          the{" "}
-          <a
-            href="https://www.mcmasterdesignleague.com/"
-            class="clickable"
-            target="_blank"
-          >
-            McMaster Design League
-          </a>
-        </li>
-        <li>
-          curated the attendee experience for{" "}
-          <a href="https://deltahacks.com/" target="_blank" class="clickable">
-            Deltahacks
-          </a>
-        </li>
-      </ul>
+      {/*<ul>*/}
+      {/*  <li>*/}
+      {/*    wrote some satellite code for{" "}*/}
+      {/*    <a*/}
+      {/*      href="https://mcmasterneudose.ca/"*/}
+      {/*      target="_blank"*/}
+      {/*      class="clickable"*/}
+      {/*    >*/}
+      {/*      McMaster NEUDOSE*/}
+      {/*    </a>*/}
+      {/*  </li>*/}
+      {/*  <li>*/}
+      {/*    led the marketing team for the biggest design competition in 2021 with*/}
+      {/*    the{" "}*/}
+      {/*    <a*/}
+      {/*      href="https://www.mcmasterdesignleague.com/"*/}
+      {/*      class="clickable"*/}
+      {/*      target="_blank"*/}
+      {/*    >*/}
+      {/*      McMaster Design League*/}
+      {/*    </a>*/}
+      {/*  </li>*/}
+      {/*  <li>*/}
+      {/*    curated the attendee experience for{" "}*/}
+      {/*    <a href="https://deltahacks.com/" target="_blank" class="clickable">*/}
+      {/*      Deltahacks*/}
+      {/*    </a>*/}
+      {/*  </li>*/}
+      {/*</ul>*/}
     </div>
   );
 }
