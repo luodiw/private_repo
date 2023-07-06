@@ -37,6 +37,21 @@ function About() {
       <p>
         <b>Currently</b>
       </p>
+
+      <p>
+        <b>Mar 2023</b>
+        <br />- signed an offer with google for the summer! <br /> -{" "}
+        <NavLink to="/blogs/quinn-ai" class="clickable">
+          <u>[blog]</u>
+        </NavLink>{" "}
+        added{" "}
+        <NavLink to="/quinn-ai" class="clickable">
+          <u>quinn ai</u>
+        </NavLink>{" "}
+        to the website
+      </p>
+      <p />
+
       <p>
           {/*<dl>*/}
           {/*    <dt> swe intern @Fidelity Investments </dt>*/}
