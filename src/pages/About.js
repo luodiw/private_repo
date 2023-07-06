@@ -182,9 +182,9 @@ function About() {
         <ul>
         <li> 
            <a href="https://icpc.global/" 
-             class="clickable" 
+            //  class="clickable" 
              target="_blank" 
-             style="text-decoration: none; font-style: italic;">
+             >
               IMC Prosperity
                </a>
                , placed top 5%/8,000 teams (March 2023)
@@ -194,7 +194,7 @@ function About() {
              <a href="https://icpc.global/" 
              class="clickable" 
              target="_blank" 
-             style="text-decoration: none; font-style: italic;">
+             >
               ICPC Northeast North America Regional Contest
                </a>
                , placed 31/79 teams (February 2023)
@@ -204,7 +204,7 @@ function About() {
           <a href="https://damo.alibaba.com/damo-academy-young-fellow/" 
              class="clickable" 
              target="_blank" 
-             style="text-decoration: none; font-style: italic;">
+             >
             Alibaba Global Math Competition DAMO Finalist
           </a>
           (March 2020)
