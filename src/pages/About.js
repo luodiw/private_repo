@@ -187,12 +187,20 @@ function About() {
           >
             IMC Prosperity
           </a>
-          (top 5%/8,000 teams)
+          ,ranked top 5%/8,000 teams (March 2023)
           </li>
-          
 
+          <li> <a
+            href="https://icpc.global/"
+            class="clickable"
+            target="_blank"
+          >
+            ICPC Northeast North America Regional Contest
+          </a>
+          ,ranked 31/79 teams (Feburary 2023)
+          </li>
 
-          <li>2020 Alibaba Global Math Competition DAMO Finalist</li>
+          <li>Alibaba Global Math Competition DAMO Finalist (March 2020)</li>
         </ul>
 
       </p>  
