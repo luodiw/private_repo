@@ -154,7 +154,7 @@ function About() {
         </li>
       </ul> */}
 
-      <p>hackathons:
+      <p>[hackathons]:
         <ul>
         <li> 
            <a href="https://icpc.global/" 
@@ -191,7 +191,14 @@ function About() {
 
       <p>outside of swe:
         <ul>
-          <li>did dApps privacy research & growth @Oasis Protocol</li>
+          <li>did dApps privacy research & growth @
+          <a href="https://oasisprotocol.org/" 
+            class = "clickable"
+             target="_blank" 
+             >
+            Oasis Protocol 
+          </a>
+          </li>
           <li>2x venture fellow</li>
           <li>acq. founder</li>
         </ul>
