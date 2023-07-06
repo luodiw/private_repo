@@ -182,7 +182,7 @@ function About() {
         <ul>
         <li> 
            <a href="https://icpc.global/" 
-             class="clickable italic" 
+            //  class="clickable italic" 
              target="_blank" 
              >
               IMC Prosperity
@@ -192,7 +192,7 @@ function About() {
 
           <li>
              <a href="https://icpc.global/" 
-             class="clickable italic" 
+            //  class="clickable italic" 
              target="_blank" 
              >
               ICPC Northeast North America Regional Contest
@@ -202,7 +202,7 @@ function About() {
 
           <li>
           <a href="https://damo.alibaba.com/damo-academy-young-fellow/" 
-             class="clickable italic" 
+            //  class="clickable italic" 
              target="_blank" 
              >
             Alibaba Global Math Competition DAMO Finalist
