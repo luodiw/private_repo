@@ -77,7 +77,7 @@ function About() {
       {/*<p>did some internships:</p>*/}
       <p>
           <ul>
-              <dt> <li> Summer Research Fellowship @Union College, NY {" "} </li> </dt>
+              <dt> <li> Summer Research Fellowship @Union College, NY {" "} </li>
               <a
                   href="https://www.union.edu/news/stories/202207/summer-research-projects-2022"
                   className="clickable"
@@ -86,6 +86,7 @@ function About() {
                   (research
               </a>
               )
+              </dt>
               <dd> wrote </dd>
           </ul>
 
