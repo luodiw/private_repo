@@ -35,7 +35,7 @@ function About() {
       {/*<p> </p>*/}
 
       <p>
-        <b>Currently</b>
+        <b>[Currently]</b>
       </p>
 
       <p>
@@ -48,7 +48,7 @@ function About() {
       <p> </p>
 
       <p>
-        <b>Previously</b>
+        <b>[Previously]</b>
       </p>
 
       <p> internships and research: </p>
