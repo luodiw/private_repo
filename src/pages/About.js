@@ -14,20 +14,20 @@ function About() {
 
       {/*<hr class="dashed" />*/}
 
-      <p>
+      {/*<p>*/}
 
-        <br />
-        {/*  <h4>*/}
-        {/*      previously*/}
-        {/*  </h4>*/}
-        {/*<br />*/}
-        {/*i'm a serial hobby hopper, i dabble in the arts, i stay fit, and i'm*/}
-        {/*currently on the quest for a perfect cup of coffee. my existence in so*/}
-        {/*many things really helped shape the learner that i am today, and the one*/}
-        {/*i'll be tomorrow!*/}
-      </p>
-
-      <p> </p>
+      {/*  <br />*/}
+      {/*  /!*  <h4>*!/*/}
+      {/*  /!*      previously*!/*/}
+      {/*  /!*  </h4>*!/*/}
+      {/*  /!*<br />*!/*/}
+      {/*  /!*i'm a serial hobby hopper, i dabble in the arts, i stay fit, and i'm*!/*/}
+      {/*  /!*currently on the quest for a perfect cup of coffee. my existence in so*!/*/}
+      {/*  /!*many things really helped shape the learner that i am today, and the one*!/*/}
+      {/*  /!*i'll be tomorrow!*!/*/}
+      {/*</p>*/}
+      
+      {/*<p> </p>*/}
 
       <p>
         <b>Currently</b>
@@ -75,7 +75,7 @@ function About() {
         <b>Previously</b>
       </p>
 
-      <p>internships: </p>
+      <p>internships and research </p>
         <p>
             <ul>
                 <dt> <li> computer vision intern @H10 AI {" "}
