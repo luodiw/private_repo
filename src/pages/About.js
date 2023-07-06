@@ -74,8 +74,42 @@ function About() {
       <p>
         <b>Previously</b>
       </p>
+
       <p>internships: </p>
-        
+        <p>
+            <ul>
+                <dt> <li> computer vision intern @H10 AI {" "}
+                    <a
+                        href="https://h10ai.com/"
+                        className="clickable"
+                        target="_blank"
+                    >
+                        (h10 ai
+                    </a>
+                    )
+                </li>
+                </dt>
+                <dd> • used C++ to develop an adaptive gain-based visual servoing control law
+
+                    used control law computer vision wrote C++ to implement visual servoing
+                    control law using adaptive gain in C++,
+                    reducing 67% of robot mechanical sensor accuracy drift for client and used
+                    computer vision to control robot arm, eliminating hours of robot recalibration
+                    • Created a GUI showing images from OpenCV in Electron using React, created demos for medical expo
+
+                    Developed and deployed an adaptive gain-based visual servoing control law in C++ to mitigate
+                    the effects of mechanical sensor accuracy drift, resulting in a significant 67% reduction for the client.
+                    Leveraged computer vision techniques to effectively control a robot arm, streamlining operations and
+                    eliminating the need for time-consuming robot recalibration procedures, thereby saving valuable hours of effort.
+
+
+
+
+
+                </dd>
+            </ul>
+        </p>
+
 
 
       <p>cs research:</p>
