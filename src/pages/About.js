@@ -7,6 +7,10 @@ function About() {
 
   return (
     <div>
+      <div class="flex-container" id="blog_header_card">
+        <h1 id="blog_header">footprints of my work</h1>
+        <BlogNavBar></BlogNavBar>
+      </div>
       {/*<img src="/me.jpg" alt="it's me!" width="200" height="auto" />*/}
       {/*<p>*/}
       {/*  <nobr>─=≡Σ((( つ•̀ω•́)つLET’S GO!</nobr>*/}
@@ -89,9 +93,9 @@ function About() {
                     )
                 </li>
                 </dt>
-                <dd> developed wrote C++ to develop an adaptive gain-based visual servoing control law reducing the robot's
-                    sensor accuracy drift, saved hours of recalibration
-                    • used {" "}
+                <dd>- developed an adaptive gain-based visual servoing control law to the robot's
+                    sensor accuracy drift in C++
+                    - used {" "}
                     <a
                         href="https://visp-doc.inria.fr/doxygen/visp-3.3.0/index.html/"
                         className="clickable"
@@ -99,7 +103,7 @@ function About() {
                     >
                         VISP
                     </a>
-                    processed images, calculated errors too!
+                    to process images and calculate errors 
                     • made a GUI to show images from OpenCV with React
                 </dd>
             </ul>
@@ -205,7 +209,7 @@ function About() {
             //  class="clickable italic" 
              target="_blank" 
              >
-            Alibaba Global Math Competition DAMO Finalist
+            Alibaba Global Math Competition DAMO Finalist 
           </a>
           (March 2020)
              </li>
