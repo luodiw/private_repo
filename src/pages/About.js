@@ -26,7 +26,7 @@ function About() {
       {/*  /!*many things really helped shape the learner that i am today, and the one*!/*/}
       {/*  /!*i'll be tomorrow!*!/*/}
       {/*</p>*/}
-      
+
       {/*<p> </p>*/}
 
       <p>
@@ -75,7 +75,7 @@ function About() {
         <b>Previously</b>
       </p>
 
-      <p>internships and research </p>
+      <p> internships and research: </p>
         <p>
             <ul>
                 <dt> <li> computer vision intern @H10 AI {" "}
@@ -89,7 +89,7 @@ function About() {
                     )
                 </li>
                 </dt>
-                <dd> • wrote C++ to develop an adaptive gain-based visual servoing control law reducing the robot's
+                <dd> developed wrote C++ to develop an adaptive gain-based visual servoing control law reducing the robot's
                     sensor accuracy drift, saved hours of recalibration
                     • used {" "}
                     <a
@@ -107,10 +107,10 @@ function About() {
 
 
 
-      <p>cs research:</p>
+      {/* <p>cs research:</p> */}
       <p>
           <ul>
-              <dt> <li> summer research fellowship @Union College, NY {" "}
+              <dt> <li> summer research fellowship @Union College, ny {" "}
               <a
                   href="https://www.union.edu/news/stories/202207/summer-research-projects-2022"
                   className="clickable"
@@ -127,7 +127,7 @@ function About() {
 
         <p>
             <ul>
-                <dt> <li> cs research lab, NY {" "}
+                <dt> <li> cs research lab @Union College, ny {" "}
                     <a
                         href="https://www.union.edu/news/stories/202207/summer-research-projects-2022"
                         className="clickable"
@@ -142,7 +142,7 @@ function About() {
             </ul>
         </p>
 
-      <ul>
+      {/* <ul>
         <li>
           wrote some NASA code for the Canadian Space Agency (
           <a
@@ -176,14 +176,23 @@ function About() {
           </a>
           )
         </li>
-      </ul>
+      </ul> */}
 
       <p>hackathons: </p>
         <ul>
 
         </ul>
 
-      <p>outside of swe:</p>
+      <p>outside of swe
+        <ul>
+          <li>did dApps privacy research & growth @Oasis Protocol</li>
+          <li>2x venture fellow</li>
+          <li>acq. founder</li>
+        </ul>
+      </p>  
+        
+
+
       {/*<ul>*/}
       {/*  <li>*/}
       {/*    wrote some satellite code for{" "}*/}
