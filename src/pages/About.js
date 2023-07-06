@@ -180,27 +180,35 @@ function About() {
 
       <p>hackathons:
         <ul>
-        <li> <a
-            href="https://prosperity.imc.com/"
-            class="clickable"
-            target="_blank"
-          >
-            IMC Prosperity
-          </a>
-          ,ranked top 5%/8,000 teams (March 2023)
+        <li> 
+           <a href="https://icpc.global/" 
+             class="clickable" 
+             target="_blank" 
+             style="text-decoration: none; font-style: italic;">
+              IMC Prosperity
+               </a>
+               , placed top 5%/8,000 teams (March 2023)
           </li>
 
-          <li> <a
-            href="https://icpc.global/"
-            class="clickable"
-            target="_blank"
-          >
-            ICPC Northeast North America Regional Contest
-          </a>
-          ,ranked 31/79 teams (Feburary 2023)
-          </li>
+          <li>
+             <a href="https://icpc.global/" 
+             class="clickable" 
+             target="_blank" 
+             style="text-decoration: none; font-style: italic;">
+              ICPC Northeast North America Regional Contest
+               </a>
+               , placed 31/79 teams (February 2023)
+               </li>
 
-          <li>Alibaba Global Math Competition DAMO Finalist (March 2020)</li>
+          <li>
+          <a href="https://damo.alibaba.com/damo-academy-young-fellow/" 
+             class="clickable" 
+             target="_blank" 
+             style="text-decoration: none; font-style: italic;">
+            Alibaba Global Math Competition DAMO Finalist
+          </a>
+          (March 2020)
+             </li>
         </ul>
 
       </p>  
@@ -213,8 +221,6 @@ function About() {
         </ul>
       </p>  
         
-
-
       {/*<ul>*/}
       {/*  <li>*/}
       {/*    wrote some satellite code for{" "}*/}
