@@ -39,12 +39,9 @@ function About() {
       </p>
 
       <p>
-        <b>Mar 2023</b>
-        <br />- signed an offer with google for the summer! <br /> -{" "}
-          <u>[blog]</u>
-        added{" "}
-          <u>quinn ai</u>
-        to the website
+        <b>swe intern @Fidelity Investments</b>
+        <br />- working on the future of work. 
+        <br />- making AI/ML recommendation systems, APIs, ios & android dev
       </p>
       <p />
 
