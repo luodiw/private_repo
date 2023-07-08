@@ -66,8 +66,7 @@ function About() {
                     )
                 </li>
                 </dt>
-                <dd>- developed an adaptive gain-based visual servoing control law to the robot's
-                    sensor accuracy drift in C++
+                <dd>- used control law to 
                     - used {" "}
                     <a
                         href="https://visp-doc.inria.fr/doxygen/visp-3.3.0/index.html/"
