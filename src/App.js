@@ -120,7 +120,7 @@ function App() {
       />
       <Routes>
         <Route path="/*" element={<AppRoutes />} />
-        <Route path="/log/*" element={<LogRoutes />} />
+        <Route path="/reading/*" element={<LogRoutes />} />
         <Route path="/blogs/*" element={<BlogRoutes />} />
       </Routes>
     </div>
