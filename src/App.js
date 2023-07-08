@@ -65,9 +65,6 @@ function LogRoutes() {
           </Routes>
           <Footer />
         </div>
-
-        {/* //this is fixing it!? maybe */}
-
         <div class="flex-container" id="inner" />
       </div>
       <div class="flex-container" id="outer" />
@@ -88,9 +85,6 @@ function AboutRoutes() {
           </Routes>
           <Footer />
         </div>
-
-        {/* //this is fixing it!? maybe */}
-
         <div class="flex-container" id="inner" />
       </div>
       <div class="flex-container" id="outer" />
