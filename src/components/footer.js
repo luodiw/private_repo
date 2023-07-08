@@ -33,10 +33,7 @@ function Footer() {
           >
            {" "}
         </a>
-
-        <p className="love-nyc">made with ❤️ in nyc</p>
-
-
+        <span className="love-nyc">made with ❤️ in nyc</span>
         {/* add a footer, made with love in nyc}
         add time.js to this file
 
