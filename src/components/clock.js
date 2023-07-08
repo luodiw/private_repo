@@ -25,16 +25,11 @@ class Clock {
       boldText.textContent = this.state.date.toLocaleTimeString();
       container.appendChild(boldText);
       
-      // Assuming you have a container element with the ID 'clock-container'
       const clockContainer = document.getElementById('clock-container');
       clockContainer.innerHTML = '';
       clockContainer.appendChild(container);
     }
   }
   
-  const clock = new Clock();
-  clock.componentDidMount();
-  
-  // To simulate componentWillUnmount
-  // call clock.componentWillUnmount() when you want to stop the clock.
+  export default Clock;
   
