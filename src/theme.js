@@ -20,10 +20,10 @@ const useTheme = () => {
   }, []);
 
   const toggleTheme = () => {
-    const newTheme = theme === "orb" ? " " : "orb";
+    const newTheme = theme === "orb" ? "shine" : "orb";
     setTheme(newTheme);
     localStorage.setItem("theme", newTheme);
-    document.documentElement.classList.toggle(" ");
+    document.documentElement.classList.toggle("shine");
     document.documentElement.classList.toggle("orb");
   };
 
