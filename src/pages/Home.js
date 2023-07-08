@@ -128,7 +128,7 @@ function Home() {
       <p>
           I also focus on <i>human interface design</i> to give people
           an epic sense of possibility and a deep appreciation when
-          visualizing the transmitted stories. To me, beauty matters. 
+          visualizing transmitted stories. To me, Beauty matters. 
           Details matter.
       </p>
 
