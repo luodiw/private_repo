@@ -28,18 +28,34 @@ function Projects() {
           <b>Notion Task Automator</b>
         </a>{" "}
         <br />
-        use voice commands or type into a task you want to add in Notion!
+        use voice commands to write, read what you want to add in Notion through the terminal!
+      </p>
+
+      <p>
+        <a
+          href="https://github.com/luodiw/Discord-Bot"
+          class="clickable"
+          target="_blank"
+        >
+          <b>Discord Bot Template</b>
+        </a>{" "}
+        <br />
+        built an efficient Discord bot template for deployment and workflow with Docker, Pipenv, and autoloading Cogs
+        deployed across servers totallling to 2K people  
+        (gpt addition incoming ;))
       </p>
 
 
       <p>
         <NavLink to="/quinn-ai" class="clickable">
           <u>
-            <b>Notion Task Automator</b>
+            <b>Discord Bot Template</b>
           </u>
         </NavLink>{" "}
         <br />
-        use voice commands or type into a task you want to add in Notion!
+        built an efficient Discord bot template for deployment and workflow with Docker, Pipenv, and autoloading Cogs
+        deployed across servers totallling to 2K people  
+        (gpt addition incoming ;))
       </p>
       <p>
         <NavLink to="/" class="clickable">

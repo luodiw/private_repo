@@ -9,11 +9,11 @@ function Log() {
 
   return (
     <div>
-      <img src="/james_turrell_skyspace.jpg" alt="it's me!" width="200" height="auto" />
       <div class="flex-container" id="blog_header_card">
         <h4 id="blog_header">what I'm reading now</h4>
         <BlogNavBar></BlogNavBar>
       </div>
+      <img src="/james_turrell_skyspace.jpg" alt="it's me!" width="200" height="auto" />
 
       <p>
         follow my journeys on{" "}
