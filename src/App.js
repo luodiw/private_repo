@@ -75,6 +75,29 @@ function LogRoutes() {
   );
 }
 
+function AboutRoutes() {
+  return (
+    <div>
+      <div class="flex-container" id="outer" />
+      <div class="flex-container" id="outer">
+        <div class="flex-container" id="inner"></div>
+
+        <div class="flex-container" id="blog">
+          <Routes>
+            <Route path="/" element={<About />} />
+          </Routes>
+          <Footer />
+        </div>
+
+        {/* //this is fixing it!? maybe */}
+
+        <div class="flex-container" id="inner" />
+      </div>
+      <div class="flex-container" id="outer" />
+    </div>
+  );
+}
+
 function BlogRoutes() {
   return (
     <div>
@@ -122,6 +145,7 @@ function App() {
         <Route path="/*" element={<AppRoutes />} />
         <Route path="/reading/*" element={<LogRoutes />} />
         <Route path="/blogs/*" element={<BlogRoutes />} />
+        <Route path="/about/*" element={<AboutRoutes />} />
       </Routes>
     </div>
   );
