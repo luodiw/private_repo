@@ -8,7 +8,7 @@ function Projects() {
 
   return (
     <div>
-      <img src="/james_turrell_skyspace.jpg" alt="it's me!" width="200" height="auto" />
+      {/* <img src="/james_turrell_skyspace.jpg" alt="it's me!" width="200" height="auto" /> */}
       <p>
         {" "}
         {/*<a href="https://github.com/luodiw" class="clickable" target="_blank">*/}
@@ -18,16 +18,28 @@ function Projects() {
         {/*<nobr>(๑•̀ㅁ•́๑)✧</nobr>*/}
       </p>
       <hr class="dashed" />
-      
-      
+    
+      <p>
+        <a
+          href="https://github.com/luodiw/Notion-Task-Automator"
+          class="clickable"
+          target="_blank"
+        >
+          <b>Notion Task Automator</b>
+        </a>{" "}
+        <br />
+        use voice commands or type into a task you want to add in Notion!
+      </p>
+
+
       <p>
         <NavLink to="/quinn-ai" class="clickable">
           <u>
-            <b>quinn ai</b>
+            <b>Notion Task Automator</b>
           </u>
         </NavLink>{" "}
         <br />
-        talk to an ai version of me (try it out)!
+        use voice commands or type into a task you want to add in Notion!
       </p>
       <p>
         <NavLink to="/" class="clickable">
@@ -38,6 +50,7 @@ function Projects() {
         <br />
         what you're looking at right now :)
       </p>
+      
       <p>
         <a
           href="https://ridehome.netlify.app/"
@@ -49,6 +62,7 @@ function Projects() {
         <br />
         ride the subway, from home
       </p>
+      
       <p>
         <a
           href="https://github.com/quinnha/protein-monster-visualizer"
