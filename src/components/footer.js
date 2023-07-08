@@ -1,4 +1,5 @@
 import "./footer.css";
+import Clock from "./clock";
 
 function Footer() {
   return (
@@ -33,6 +34,10 @@ function Footer() {
            {" "}
         </a>
 
+
+        {/* add a footer, made with love in nyc}
+        add time.js to this file
+
           {/*<i className="fa-solid fa-paper-plane"></i>*/}
         {/*<a*/}
         {/*  href="https://www.instagram.com/qh.music/"*/}
@@ -56,6 +61,10 @@ function Footer() {
         {/*  {""}*/}
         {/*</a>*/}
       </p>
+      <p className="love-nyc">made with ❤️ in nyc</p>
+      <p className="love-nyc">made with {"\u{1F34E}"} in nyc</p>
+
+
       {/* <p class="credit_p">
         inspired by{" "}
         <a
@@ -66,6 +75,7 @@ function Footer() {
           tiffany
         </a>
       </p> */}
+      <Clock />
     </div>
   );
 }
