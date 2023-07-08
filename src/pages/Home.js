@@ -83,7 +83,7 @@ function Home() {
   return (
     <div>
       <div class="flex-container" id="blog_header_card">
-        <h4 id="blog_header">my work footprints</h4>
+        {/* <h4 id="blog_header">my work footprints</h4> */}
         <BlogNavBar></BlogNavBar>
       </div>
       <h2>Luodi Wang</h2>
