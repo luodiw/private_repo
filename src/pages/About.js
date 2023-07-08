@@ -44,7 +44,7 @@ function About() {
                     </a>
                     )
                 </li>
-                <br>wrote code for using machine vision to control robots & made GUIs</br>
+                {/* <br>wrote code for using machine vision to control robots & made GUIs</br> */}
             </ul>
         </p>
 
