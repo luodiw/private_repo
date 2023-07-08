@@ -5,3 +5,8 @@ hr.dashed {
     border-color: var(--color-dash);
     border-bottom: 0px;
 }
+
+.love-nyc {
+    letter-spacing: normal;
+    white-space: nowrap;
+  }
