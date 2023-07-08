@@ -95,7 +95,7 @@ function Home() {
         .
       </p>
       <p>
-        I study computer science and mathematics at {" "}
+        I'm a computer science and mathematics student at {" "}
         <a href="https://www.union.edu" className="clickable">
           Union College
         </a>{" "}
@@ -114,25 +114,26 @@ function Home() {
       </p>
 
       <p>
-          I work on ambitious software to help people evoke and enhance
-          creativity, collaboration, efficiency, and
-          intuitively express their true inner freedom.
-
+          I work on ambitious software to help people
+          intuitively express their true inner freedom 
+          by evoking their creativity & enhancing their 
+          collaboration and efficiency.
       </p>
 
       <p>
-          Towards making an impact, it has me care deeply about <i>systems</i>,
+          And I care deeply about <i>systems</i>,
           particularly <i>distributed systems</i>.
       </p>
 
       <p>
-          My focus is <i>human interface design</i> to give people
-          an epic sense of possibility and a deep appreciation in
-          visualizing the stories transmitted. Beauty matters. Details matter.
+          I also focus on <i>human interface design</i> to give people
+          an epic sense of possibility and a deep appreciation when
+          visualizing the transmitted stories. To me, beauty matters. 
+          Details matter.
       </p>
 
       <p>
-          Currently: developing turing complete apps, open sourcing the brain, defi remittances
+          Am currently: developing turing complete apps, open sourcing the brain, defi remittances
       </p>
 
       <p>
