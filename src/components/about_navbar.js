@@ -21,7 +21,7 @@ function AboutNavBar() {
           <NavLink to="/">home</NavLink> |
           <NavLink to="/about">footprint</NavLink>{" "}
           | <NavLink to="/projects">projects</NavLink> |{" "}
-          <NavLink to="/log">reading</NavLink> |{" "}
+          <NavLink to="/reading">reading</NavLink> |{" "}
 
 
           {/*<NavLink to="/resume">resume</NavLink> |{" "}*/}

@@ -7,7 +7,7 @@ import Projects from "./pages/Projects";
 // import QuinnAI from "./pages/QuinnAI";
 // import AboutQuinnAI from "./pages/blogs/About-QuinnAI";
 // import ASL from "./pages/blogs/ASL";
-import Log from "./pages/Log";
+import Reading from "./pages/Reading";
 // import Blog from "./pages/blogs/Blogs";
 import "./index.css";
 import NavBar from "./components/navbar";
@@ -61,10 +61,12 @@ function LogRoutes() {
 
         <div class="flex-container" id="blog">
           <Routes>
-            <Route path="/" element={<Log />} />
+            <Route path="/" element={<Reading />} />
           </Routes>
           <Footer />
         </div>
+
+        {/* //this is fixing it!? maybe */}
 
         <div class="flex-container" id="inner" />
       </div>

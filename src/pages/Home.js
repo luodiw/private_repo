@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import BlogNavBar from "../components/blog_navbar";
 
 const hobbies = [
   // "playing my ukulele",

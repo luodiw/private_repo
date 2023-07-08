@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import BlogNavBar from "../components/blog_navbar";
 
-function Log() {
+function Reading() {
   useEffect(() => {
     document.title = "Luodi Wang - Reading";
   }, []);
