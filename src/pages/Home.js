@@ -83,10 +83,10 @@ function Home() {
   return (
     <div>
       <div class="flex-container" id="blog_header_card">
-        {/* <h4 id="blog_header">my work footprints</h4> */}
+        <h2 id="blog_header">Luodi Wang</h2>
         <BlogNavBar></BlogNavBar>
       </div>
-      <h2>Luodi Wang</h2>
+      {/* <h2>Luodi Wang</h2> */}
       <p>
         I'm a {" "}
         <a class="clickable" id="corner" onClick={handleSpaceClick}>
