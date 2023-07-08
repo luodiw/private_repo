@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import BlogNavBar from "../components/blog_navbar";
 
 const hobbies = [
   // "playing my ukulele",
@@ -81,6 +82,10 @@ function Home() {
 
   return (
     <div>
+      <div class="flex-container" id="blog_header_card">
+        <h4 id="blog_header">my work footprints</h4>
+        <BlogNavBar></BlogNavBar>
+      </div>
       <h2>Luodi Wang</h2>
       <p>
         I'm a {" "}

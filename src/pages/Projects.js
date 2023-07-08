@@ -40,9 +40,9 @@ function Projects() {
           <b>Discord Bot Template</b>
         </a>{" "}
         <br />
-        -built an efficient Discord bot template for deployment and workflow with Docker, Pipenv, and autoloading Cogs
+        - built an efficient Discord bot template for deployment and workflow with Docker, Pipenv, and autoloading Cogs
         <br />
-        -deployed across servers totalling to 2K people  
+        - deployed across servers totalling to 2K people  
         (gpt addition incoming ;))
       </p>
 
