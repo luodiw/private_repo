@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import BlogNavBar from "../components/blog_navbar";
+import AboutNavBar from "../components/blog_navbar";
 
 
 function About() {
@@ -9,10 +9,10 @@ function About() {
 
   return (
     <div>
-      {/* <div class="flex-container" id="blog_header_card">
+      <div class="flex-container" id="blog_header_card">
         <h4 id="blog_header">my work footprints</h4>
-        <BlogNavBar></BlogNavBar>
-      </div> */}
+        <AboutNavBar></AboutNavBar>
+      </div>
       {/*<img src="/me.jpg" alt="it's me!" width="200" height="auto" />*/}
       {/*<p>*/}
       {/*  <nobr>─=≡Σ((( つ•̀ω•́)つLET’S GO!</nobr>*/}
