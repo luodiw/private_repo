@@ -14,17 +14,17 @@ const useTheme = () => {
         "(prefers-color-scheme: dark)"
       ).matches;
       if (prefersDarkMode) {
-        setTheme("orb");
+        setTheme("moon");
       }
     }
   }, []);
 
   const toggleTheme = () => {
-    const newTheme = theme === "orb" ? "shine" : "orb";
+    const newTheme = theme === "moon" ? "sun" : "moon";
     setTheme(newTheme);
     localStorage.setItem("theme", newTheme);
-    document.documentElement.classList.toggle("shine");
-    document.documentElement.classList.toggle("orb");
+    document.documentElement.classList.toggle("sun");
+    document.documentElement.classList.toggle("moon");
   };
 
   return [theme, toggleTheme];
