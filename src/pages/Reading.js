@@ -174,4 +174,4 @@ function Reading() {
   );
 }
 
-export default Log;
+export default Reading;
