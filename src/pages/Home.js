@@ -94,24 +94,6 @@ function Home() {
         </a>
         .
       </p>
-      <p>
-        I'm a computer science and mathematics student at {" "}
-        <a href="https://www.union.edu" className="clickable">
-          Union College
-        </a>{" "}
-        {/*<a href="https://www.union.edu" className="clickable">*/}
-        {/*  Union College*/}
-        {/*</a>{" "}*/}
-        in upstate ny.
-
-        {/*/!*i'm a student based in Toronto &#127809; where i study software*!/*/}
-        {/*/!*engineering. when i'm not breaking prod at google, i'm learning about*!/*/}
-        {/*accessibility, reading manga, and{" "}*/}
-        {/*<a class="clickable" id="hobbies" onClick={handleHobbyClick}>*/}
-        {/*  {currentHobby}*/}
-        {/*</a>*/}
-        {/*.*/}
-      </p>
 
       <p>
           I work on ambitious software to help people
@@ -133,7 +115,26 @@ function Home() {
       </p>
 
       <p>
-          Am currently: developing turing complete apps, open sourcing the brain, defi remittances
+        I'm currently a junior computer science and mathematics student at {" "}
+        <a href="https://www.union.edu" className="clickable">
+          Union College
+        </a>{" "}
+        {/*<a href="https://www.union.edu" className="clickable">*/}
+        {/*  Union College*/}
+        {/*</a>{" "}*/}
+        in upstate ny.
+
+        {/*/!*i'm a student based in Toronto &#127809; where i study software*!/*/}
+        {/*/!*engineering. when i'm not breaking prod at google, i'm learning about*!/*/}
+        {/*accessibility, reading manga, and{" "}*/}
+        {/*<a class="clickable" id="hobbies" onClick={handleHobbyClick}>*/}
+        {/*  {currentHobby}*/}
+        {/*</a>*/}
+        {/*.*/}
+      </p>
+
+      <p>
+          Am now: developing turing complete apps, open sourcing the brain, researching defi remittances
       </p>
 
       <p>
