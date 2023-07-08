@@ -13,27 +13,6 @@ function About() {
         <h4 id="blog_header">my work footprints</h4>
         <AboutNavBar></AboutNavBar>
       </div>
-      {/*<img src="/me.jpg" alt="it's me!" width="200" height="auto" />*/}
-      {/*<p>*/}
-      {/*  <nobr>─=≡Σ((( つ•̀ω•́)つLET’S GO!</nobr>*/}
-      {/*</p>*/}
-
-      {/*<hr class="dashed" />*/}
-
-      {/*<p>*/}
-
-      {/*  <br />*/}
-      {/*  /!*  <h4>*!/*/}
-      {/*  /!*      previously*!/*/}
-      {/*  /!*  </h4>*!/*/}
-      {/*  /!*<br />*!/*/}
-      {/*  /!*i'm a serial hobby hopper, i dabble in the arts, i stay fit, and i'm*!/*/}
-      {/*  /!*currently on the quest for a perfect cup of coffee. my existence in so*!/*/}
-      {/*  /!*many things really helped shape the learner that i am today, and the one*!/*/}
-      {/*  /!*i'll be tomorrow!*!/*/}
-      {/*</p>*/}
-
-      {/*<p> </p>*/}
 
       <p>
         <b>[Currently]</b>
@@ -55,7 +34,7 @@ function About() {
       <p> internships and research: </p>
         <p>
             <ul>
-                <dt> <li> computer vision intern @H10 AI {" "}
+               <li> computer vision intern @H10 AI {" "}
                     <a
                         href="https://h10ai.com/"
                         className="clickable"
@@ -65,19 +44,7 @@ function About() {
                     </a>
                     )
                 </li>
-                </dt>
-                <dd>- used control law to 
-                    - used {" "}
-                    <a
-                        href="https://visp-doc.inria.fr/doxygen/visp-3.3.0/index.html/"
-                        className="clickable"
-                        target="_blank"
-                    >
-                        VISP
-                    </a>
-                    to process images and calculate errors 
-                    • made a GUI to show images from OpenCV with React
-                </dd>
+                <br>wrote code for using machine vision to control robots & made GUIs</br>
             </ul>
         </p>
 
