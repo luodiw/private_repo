@@ -61,8 +61,8 @@ function Footer() {
         {/*  {""}*/}
         {/*</a>*/}
       </p>
-      {/* <p className="love-nyc">made with ❤️ in nyc</p>
-      <p className="love-nyc">made with {"\u{1F34E}"} in nyc</p> */}
+      <p className="love-nyc">made with ❤️ in nyc</p>
+      <p className="love-nyc">made with {"\u{1F34E}"} in nyc</p>
 
 
       {/* <p class="credit_p">
