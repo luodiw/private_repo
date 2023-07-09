@@ -44,6 +44,7 @@ function About() {
                     </a>
                     )
                 </li>
+                - wrote code for using machine vision to control robots & made GUIs
                 {/* <br>wrote code for using machine vision to control robots & made GUIs</br> */}
             </ul>
         </p>
@@ -148,7 +149,7 @@ function About() {
             //  class="clickable italic" 
              target="_blank" 
              >
-            Alibaba Global Math Competition DAMO Finalist 
+            Alibaba Global Math Competition DAMO Finalist {" "}
           </a>
           (March 2020)
              </li>
