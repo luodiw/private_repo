@@ -32,6 +32,24 @@ function About() {
       </p>
 
       <p> internships and research: </p>
+
+      <p>
+          <ul>
+              <dt> <li> summer research fellowship @Union College, ny {" "}
+              <a
+                  href="https://www.union.edu/news/stories/202207/summer-research-projects-2022"
+                  className="clickable"
+                  target="_blank"
+              >
+                  (research
+              </a>
+              )
+              </li>
+              </dt>
+              <dd> wrote </dd>
+          </ul>
+      </p>
+
         <p>
             <ul>
                <li> computer vision intern @H10 AI {" "}
@@ -52,22 +70,7 @@ function About() {
 
 
       {/* <p>cs research:</p> */}
-      <p>
-          <ul>
-              <dt> <li> summer research fellowship @Union College, ny {" "}
-              <a
-                  href="https://www.union.edu/news/stories/202207/summer-research-projects-2022"
-                  className="clickable"
-                  target="_blank"
-              >
-                  (research
-              </a>
-              )
-              </li>
-              </dt>
-              <dd> wrote </dd>
-          </ul>
-      </p>
+
 
         <p>
             <ul>
