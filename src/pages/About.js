@@ -35,7 +35,7 @@ function About() {
 
       <p>
           <ul>
-              <dt> <li> summer research fellowship @Union College, ny {" "}
+              <li> summer research fellowship @Union College, ny {" "}
               <a
                   href="https://www.union.edu/news/stories/202207/summer-research-projects-2022"
                   className="clickable"
@@ -45,8 +45,8 @@ function About() {
               </a>
               )
               </li>
-              </dt>
-              <dd> wrote </dd>
+              - worked on virtual reality robot control system and 
+              coded an integration the robot's 3D model/mesh environment to VR 
           </ul>
       </p>
 
@@ -67,12 +67,45 @@ function About() {
             </ul>
         </p>
 
-
-
-      {/* <p>cs research:</p> */}
+        <p>
+            <ul>
+               <li> swe intern @Creatiers on DeSo Protocol {" "}
+                    <a
+                        href="https://twitter.com/creatiers/"
+                        className="clickable"
+                        target="_blank"
+                    >
+                        (creatiers
+                    </a>
+                    )
+                </li>
+                - shipped real time chat application and embedded DeSo Api's
+                {/* <br>wrote code for using machine vision to control robots & made GUIs</br> */}
+            </ul>
+        </p>
 
 
         <p>
+            <ul>
+               <li> cs research lab @Union College, ny
+                    {/* <a
+                        href="https://h10ai.com/"
+                        className="clickable"
+                        target="_blank"
+                    >
+                        (h10 ai
+                    </a> */}
+                    {/* ) */}
+                </li>
+                - did parallelization to Cohn-Umans framework for making matrix multiplication faster!
+                {/* <br>wrote code for using machine vision to control robots & made GUIs</br> */}
+            </ul>
+        </p>
+
+        <p><i>(i've also done ml data analysis on economic data & lots of frontend work in the past)</i></p>
+
+
+        {/* <p>
             <ul>
                 <dt> <li> cs research lab @Union College, ny {" "}
                     <a
@@ -87,7 +120,7 @@ function About() {
                 </dt>
                 <dd> wrote </dd>
             </ul>
-        </p>
+        </p> */}
 
       {/* <ul>
         <li>
