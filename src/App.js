@@ -15,7 +15,7 @@ import Footer from "./components/footer";
 import TagManager from "react-gtm-module";
 
 //import custom font
-import MyCustomFont from "/fonts/BerkeleyMonoTrial-Regular.ttf";
+import MyCustomFont from ".//fonts/BerkeleyMonoTrial-Regular.ttf";
 
 
 const tagManagerArgs = {
