@@ -73,7 +73,11 @@ input[type=submit]{
 body {
   background-color: var(--background-primary);
   color: var(--color-primary);
-  font-family: 'Roboto Mono';
+  /* font-family: 'Roboto Mono'; */
+  /*importing my custom font
+  */
+  font-family: 'MyCustomFont';
+
   font-weight: 400;
   overflow-y: scroll;
   scrollbar-width: none;

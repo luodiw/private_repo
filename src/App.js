@@ -14,6 +14,10 @@ import NavBar from "./components/navbar";
 import Footer from "./components/footer";
 import TagManager from "react-gtm-module";
 
+//import custom font
+import MyCustomFont from "/Users/luodiwang/Documents/berkeley-mono-typeface-trial/BerkeleyMonoTrial-Regular.ttf";
+
+
 const tagManagerArgs = {
   gtmId: "G-BR72D9JR60",
 };
@@ -115,6 +119,18 @@ function BlogRoutes() {
   );
 }
 
+const fontStyles = `
+    @font-face {
+      font-family: 'My Custom Font';
+      src: url(${MyCustomFont}) format('truetype');
+      /* Additional font properties if needed */
+    }
+    
+    body {
+      font-family: 'My Custom Font', sans-serif;
+    }
+  `;
+
 function App() {
   window.dataLayer.push({
     event: "pageview",
@@ -127,6 +143,10 @@ function App() {
         rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto+Mono"
       />
+      {/*import font here?*/}
+
+      <style>{fontStyles}</style>
+
       <link
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
