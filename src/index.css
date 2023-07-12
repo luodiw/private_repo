@@ -43,7 +43,7 @@ textarea{
   background-color:var(--background-primary);
   font-size: 1.25em;
   border-color: var(--color-dash);
-  border-width: 0 0 12px;
+  border-width: 0 0 20px;
   resize:both;
   outline: 0;
   overflow: hidden;
