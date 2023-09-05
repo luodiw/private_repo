@@ -33,9 +33,6 @@ function Reading() {
       <p>
           <ul>
               <li> <i> Just for Fun </i>- Linus Torvalds</li>
-              <li> <i> The Kill Chain Defending America in the Future of High-Tech Warfare</i>- Christian Brose</li>
-              <li><i> Dune </i>- Frank Herbert</li>
-              <li><i> The Alignment Problem </i>- Brian Christian</li>
 
           </ul>
         {/*<br />- signed an offer with google for the summer! <br /> -{" "}*/}
