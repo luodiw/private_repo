@@ -95,22 +95,22 @@ function Home() {
       </p>
 
       <p>
-          I work on ambitious software to help people
-          intuitively express their true inner freedom 
-          by evoking their creativity & enhancing their 
-          collaboration and efficiency.
+          I work on moonshot software to help people solve 
+          challenging problems, intuitively express their true inner freedom,  
+          evoking our creativity & enhancing our digital worlds. 
       </p>
 
       <p>
-          And I care deeply about <i>systems</i>,
-          particularly <i>distributed systems</i>.
+          {/* And I care deeply about <i>systems</i>,
+          particularly <i>distributed systems</i>. */}
+          And I believe that software can allow the world to equilibrate 
+          at each iteration.
       </p>
 
       <p>
           I also focus on <i>human interface design</i> to give people
           an epic sense of possibility and a deep appreciation when
-          visualizing transmitted stories. To me, Beauty matters. 
-          Details matter.
+          visualizing transmitted stories.
       </p>
 
       <p>
@@ -121,7 +121,7 @@ function Home() {
         {/*<a href="https://www.union.edu" className="clickable">*/}
         {/*  Union College*/}
         {/*</a>{" "}*/}
-        in upstate ny.
+        in NY.
 
         {/*/!*i'm a student based in Toronto &#127809; where i study software*!/*/}
         {/*/!*engineering. when i'm not breaking prod at google, i'm learning about*!/*/}
@@ -133,7 +133,7 @@ function Home() {
       </p>
 
       <p>
-          Am now: developing turing complete apps, open sourcing the brain, researching defi remittances
+          Am now: developing turing complete apps & open sourcing the brain
       </p>
 
       <p>

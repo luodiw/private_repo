@@ -18,12 +18,12 @@ function About() {
         <b>[Currently]</b>
       </p>
 
-      <p>
+      {/* <p>
         <b>swe intern @Fidelity Investments</b>
         <br />- working on the future of work. 
         <br />- making AI/ML recommendation systems, APIs, ios & android dev
       </p>
-      <p />
+      <p /> */}
 
       <p> </p>
 
@@ -32,6 +32,24 @@ function About() {
       </p>
 
       <p> internships and research: </p>
+
+      <p>
+          <ul>
+              <li> swe intern @Fidelity Investments
+              {/* <a
+                  href="https://www.union.edu/news/stories/202207/summer-research-projects-2022"
+                  className="clickable"
+                  target="_blank"
+              >
+                  (research
+              </a>
+              ) */}
+              </li>
+              - worked on future of work. 
+              - backend, deep learning recommendation engine + iOS development
+          </ul>
+      </p>
+
 
       <p>
           <ul>
@@ -102,7 +120,7 @@ function About() {
             </ul>
         </p>
 
-        <p><i>(i've also done ml data analysis on economic data & lots of frontend work in the past)</i></p>
+        {/* <p><i>(i've also done ml data analysis on economic data & lots of frontend work in the past)</i></p> */}
 
 
         {/* <p>
@@ -204,7 +222,7 @@ function About() {
           </a>
           </li>
           <li>2x venture fellow</li>
-          <li>acq. founder</li>
+          <li>acq. founder (venture backed)</li>
         </ul>
       </p>  
         
