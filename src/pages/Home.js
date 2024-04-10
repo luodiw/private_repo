@@ -1,52 +1,11 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
-const hobbies = [
-  // "playing my ukulele",
-  // "writing poetry on my substack",
-  // "brewing coffee with my v60",
-  // "cafe hopping around the city",
-  // "pretending to be busy",
-  // "walking through cities",
-  // "smashing birdies on the court",
-  // "shredding a mountain on my snowboard",
-  // "playing pump it up",
-  // "cooking mapo tofu",
-  // "walking through art galleries",
-  // "drafting up new songs",
-  // "bar hopping through neighbourhoods",
-  // "watching super smash bros melee",
-  // "trying to get on top of another mountain",
-  // "crafting a new spotify playlist",
-];
-
 const space = [
   "software engineer",
-  "researcher in ML, virtual reality and robotics, parallel computing",
-  "mobile developer",
-  "product designer",
-  // "",
-  // "node",
-  // "slice",
-  // "shard",
-  // "bit",
-  // "piece",
-  // "string",
+  "design engineer",
+  "researcher in AI, virtual reality and robotics, parallel computing, distributed systems",
 ];
-
-// function useWordCycle(words) {
-//   const [currentWord, setCurrentWord] = useState(
-//     words[Math.floor(Math.random() * words.length)]
-//   );
-//
-//   const handleClick = () => {
-//     const currentIndex = words.indexOf(currentWord);
-//     const nextIndex = (currentIndex + 1) % words.length;
-//     setCurrentWord(words[nextIndex]);
-//   };
-//
-//   return [currentWord, handleClick];
-// }
 
 function useWordCycle(words) {
     const [currentWord, setCurrentWord] = useState(
@@ -57,7 +16,6 @@ function useWordCycle(words) {
     const handleClick = () => {
         const availableWords = words.filter(word => !usedWords.includes(word));
         if (availableWords.length === 0) {
-            // If all words have been used, reset the list
             setUsedWords([]);
             setCurrentWord(words[Math.floor(Math.random() * words.length)]);
         } else {
@@ -66,7 +24,6 @@ function useWordCycle(words) {
             setCurrentWord(nextWord);
         }
     };
-
     return [currentWord, handleClick];
 }
 
@@ -76,15 +33,10 @@ function Home() {
     document.title = "Luodi Wang";
   }, []);
 
-  const [currentHobby, handleHobbyClick] = useWordCycle(hobbies);
   const [currentSpace, handleSpaceClick] = useWordCycle(space);
 
   return (
     <div>
-      {/* <div class="flex-container" id="blog_header_card">
-        <h2 id="blog_header">Luodi Wang</h2>
-        <BlogNavBar></BlogNavBar>
-      </div> */}
       <h2>Luodi Wang</h2>
       <p>
         I'm a {" "}
@@ -95,14 +47,13 @@ function Home() {
       </p>
 
       <p>
-          I work on moonshot software to help people solve 
-          challenging problems, intuitively express their true inner freedom,  
-          evoking our creativity & enhancing our digital worlds. 
+          I love building things and toys. 
+          Toys that give me and others joy, fun, inspiration, creativity.
+
+          I love moonshot projects. 
       </p>
 
       <p>
-          {/* And I care deeply about <i>systems</i>,
-          particularly <i>distributed systems</i>. */}
           And I believe that software can allow the world to equilibrate 
           at each iteration.
       </p>
@@ -118,36 +69,14 @@ function Home() {
         <a href="https://www.union.edu" className="clickable">
           Union College
         </a>{" "}
-        {/*<a href="https://www.union.edu" className="clickable">*/}
-        {/*  Union College*/}
-        {/*</a>{" "}*/}
         in NY.
-
-        {/*/!*i'm a student based in Toronto &#127809; where i study software*!/*/}
-        {/*/!*engineering. when i'm not breaking prod at google, i'm learning about*!/*/}
-        {/*accessibility, reading manga, and{" "}*/}
-        {/*<a class="clickable" id="hobbies" onClick={handleHobbyClick}>*/}
-        {/*  {currentHobby}*/}
-        {/*</a>*/}
-        {/*.*/}
       </p>
 
       <p>
-          Am now: developing turing complete apps & open sourcing the brain
+          Am now exploring and scaling the fields of Applied AI.
       </p>
 
       <p>
-        {" "}
-        {/*<a href="mailto:lwang4319@gmail.com" class="clickable">*/}
-        {/*  lwang4319@gmail.com*/}
-        {/*</a>*/}
-        {/*,*/}
-        {/*<br />*/}
-        {/*or ask{" "}*/}
-        {/*<NavLink to="/quinn-ai" class="clickable">*/}
-        {/*  <u>my ai</u>*/}
-        {/*</NavLink>{" "}*/}
-        {/*a question!*/}
       </p>
     </div>
   );
