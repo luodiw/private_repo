@@ -3,12 +3,8 @@ import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-// import Resume from "./pages/Resume";
-// import QuinnAI from "./pages/QuinnAI";
-// import AboutQuinnAI from "./pages/blogs/About-QuinnAI";
-// import ASL from "./pages/blogs/ASL";
+
 import Reading from "./pages/Reading";
-// import Blog from "./pages/blogs/Blogs";
 import "./index.css";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
@@ -41,8 +37,6 @@ function AppRoutes() {
               <Route path="/" element={<Home />} />
               <Route path="about" element={<About />} />
               <Route path="projects" element={<Projects />} />
-              {/*<Route path="resume" element={<Resume />} />*/}
-              {/*<Route path="quinn-ai" element={<QuinnAI />} />*/}
             </Routes>
 
             <Footer />
@@ -105,9 +99,6 @@ function BlogRoutes() {
 
         <div class="flex-container" id="blog">
           <Routes>
-            {/*<Route path="/" element={<Blog />} />*/}
-            {/*<Route path="quinn-ai" element={<AboutQuinnAI />} />*/}
-            {/*<Route path="asl" element={<ASL />} />*/}
           </Routes>
           <Footer />
         </div>
@@ -143,8 +134,6 @@ function App() {
         rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto+Mono"
       />
-      {/*import font here?*/}
-
       <style>{fontStyles}</style>
 
       <link
