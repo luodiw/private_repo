@@ -186,9 +186,9 @@ a:hover,
 .clickable:active {
   cursor: pointer;
   text-decoration: underline;
-  -moz-user-select: none;
+  /* -moz-user-select: none;
   -webkit-user-select: none;
-  -ms-user-select: none;
+  -ms-user-select: none; */
   line-height: normal;
   color: var(--color-primary);
 }

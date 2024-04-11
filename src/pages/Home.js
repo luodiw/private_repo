@@ -47,10 +47,14 @@ function Home() {
       </p>
 
       <p>
-          In the past, I've worked at <a href="https://www.joinable.us/">Joinable</a>, 
+          In the past, I've worked at {" "}
+        <a href="https://www.joinable.us/" className="clickable">
+          Joinable
+        </a>{" "},
+        <a href="https://www.fidelity.com/" className="clickable">
+          Fidelity Investments
+        </a>{" "},
 
-           <a href="https://www.joinable.us/" className="clickable"> </a>, 
-          Fidelity Investments <a href="https://www.fidelity.com/" className="clickable"> </a>, 
           H10AI <a href="https://www.h10ai.com/" className="clickable"> </a>, 
           Creatiers, 
           Oasis Network <a href="https://oasisprotocol.org/" className="clickable"> </a>, and I've also founded
