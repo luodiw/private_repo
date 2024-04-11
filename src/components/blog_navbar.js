@@ -23,8 +23,6 @@ function BlogNavBar() {
           | <NavLink to="/projects">projects</NavLink> |{" "}
           <NavLink to="/reading">reading</NavLink> |{" "}
 
-
-          {/*<NavLink to="/resume">resume</NavLink> |{" "}*/}
           <CSSTransition
             in={visible}
             appear={true}

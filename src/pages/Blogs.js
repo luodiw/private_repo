@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import AboutNavBar from "../components/blog_navbar";
+// import AboutNavBar from "../components/blog_navbar";
+import BlogNavBar from "../components/blog_navbar";
 
 
 function Blog() {
@@ -11,7 +12,7 @@ function Blog() {
     <div>
       <div class="flex-container" id="blog_header_card">
         <h4 id="blog_header">Blogs</h4>
-        <AboutNavBar></AboutNavBar>
+        <BlogNavBar></BlogNavBar>
       </div>
 
     </div>
