@@ -48,17 +48,20 @@ function Home() {
 
       <p>
           In the past, I've worked at {" "}
-        <a href="https://www.joinable.us/" className="clickable">
+        <a href="https://www.joinable.us/" className="clickable" target="_blank">
           Joinable
-        </a>{" "},
-        <a href="https://www.fidelity.com/" className="clickable">
+        </a>,
+        <a href="https://www.fidelity.com/" className="clickable" target="_blank">
           Fidelity Investments
-        </a>{" "},
-
-          H10AI <a href="https://www.h10ai.com/" className="clickable"> </a>, 
-          Creatiers, 
-          Oasis Network <a href="https://oasisprotocol.org/" className="clickable"> </a>, and I've also founded
-          and sold a few startups.
+        </a>,
+        <a href="https://www.h10ai.com" className="clickable" target="_blank">
+          H10 AI
+        </a>,
+        Creatiers,
+        <a href="https://oasisprotocol.org/" className="clickable" target="_blank">
+        Oasis Network
+        </a>,
+        and I've also founded and sold a few startups.
           
           I love building things and toys that give me and others joy, fun, inspiration, creativity. Beyond engineering, 
           I also make run, moutain bike, play lots of poker, and make art.
@@ -66,7 +69,7 @@ function Home() {
 
       <p>
         I'm currently pursuing a bachelors of science in computer science and a minor in math at {" "}
-        <a href="https://www.union.edu" className="clickable">
+        <a href="https://www.union.edu" className="clickable" target="_blank">
           Union College
         </a>{" "}
         in NY.
