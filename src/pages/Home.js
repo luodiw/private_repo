@@ -46,7 +46,7 @@ function Home() {
         </a> */}
       </p>
 
-      <p>
+      {/* <p>
           In the past, I've worked at {" "}
         <a href="https://www.joinable.us/" className="clickable" target="_blank">
           Joinable
@@ -61,11 +61,22 @@ function Home() {
         <a href="https://oasisprotocol.org/" className="clickable" target="_blank">
         {" "} Oasis Network
         </a>, and I've also founded and sold a few startups.
-        </p>
+        </p> */}
+
+      <p>
+          In the past, I've worked at
+          <a href="https://www.joinable.us/" style="text-decoration: none;" class="clickable" target="_blank">Joinable</a>,
+          <a href="https://www.fidelity.com/" style="text-decoration: none;" class="clickable" target="_blank">Fidelity Investments</a>,
+          <a href="https://www.h10ai.com" style="text-decoration: none;" class="clickable" target="_blank">H10 AI</a>,
+          Creatiers,
+          <a href="https://oasisprotocol.org/" style="text-decoration: none;" class="clickable" target="_blank">Oasis Network</a>,
+          and I've also founded and sold a few startups.
+      </p>
+
           
         <p>
           I love building things and toys that give me and others joy, fun, inspiration, creativity. Beyond engineering, 
-          I also make run, moutain bike, play lots of poker, and make art.
+          I also make run, moutain bike, and make art.
         </p>
 
       <p>
