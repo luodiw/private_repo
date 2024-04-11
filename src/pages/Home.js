@@ -52,16 +52,15 @@ function Home() {
           Joinable
         </a>,
         <a href="https://www.fidelity.com/" className="clickable" target="_blank">
-          Fidelity Investments
+        {" "} Fidelity Investments
         </a>,
         <a href="https://www.h10ai.com" className="clickable" target="_blank">
-          H10 AI
+        {" "} H10 AI
         </a>,
-        Creatiers,
+        {" "} Creatiers,
         <a href="https://oasisprotocol.org/" className="clickable" target="_blank">
-        Oasis Network
+        {" "} Oasis Network
         </a>, and I've also founded and sold a few startups.
-
         </p>
           
         <p>
