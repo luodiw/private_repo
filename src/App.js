@@ -1,14 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
-import About from "./pages/About";
+import Blog from "./pages/Blogs";
 import Projects from "./pages/Projects";
-// import Resume from "./pages/Resume";
-// import QuinnAI from "./pages/QuinnAI";
-// import AboutQuinnAI from "./pages/blogs/About-QuinnAI";
-// import ASL from "./pages/blogs/ASL";
 import Reading from "./pages/Reading";
-// import Blog from "./pages/blogs/Blogs";
 import "./index.css";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
@@ -39,10 +34,8 @@ function AppRoutes() {
           <div class="flex-container" id="content">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="about" element={<About />} />
+              <Route path="blogs" element={<Blog/>} />
               <Route path="projects" element={<Projects />} />
-              {/*<Route path="resume" element={<Resume />} />*/}
-              {/*<Route path="quinn-ai" element={<QuinnAI />} />*/}
             </Routes>
 
             <Footer />
@@ -76,26 +69,6 @@ function LogRoutes() {
   );
 }
 
-function AboutRoutes() {
-  return (
-    <div>
-      <div class="flex-container" id="outer" />
-      <div class="flex-container" id="outer">
-        <div class="flex-container" id="inner"></div>
-
-        <div class="flex-container" id="blog">
-          <Routes>
-            <Route path="/" element={<About />} />
-          </Routes>
-          <Footer />
-        </div>
-        <div class="flex-container" id="inner" />
-      </div>
-      <div class="flex-container" id="outer" />
-    </div>
-  );
-}
-
 function BlogRoutes() {
   return (
     <div>
@@ -105,19 +78,36 @@ function BlogRoutes() {
 
         <div class="flex-container" id="blog">
           <Routes>
-            {/*<Route path="/" element={<Blog />} />*/}
-            {/*<Route path="quinn-ai" element={<AboutQuinnAI />} />*/}
-            {/*<Route path="asl" element={<ASL />} />*/}
+            <Route path="/" element={<Blog />} />
           </Routes>
           <Footer />
         </div>
-
         <div class="flex-container" id="inner" />
       </div>
       <div class="flex-container" id="outer" />
     </div>
   );
 }
+
+// function BlogRoutes() {
+//   return (
+//     <div>
+//       <div class="flex-container" id="outer" />
+//       <div class="flex-container" id="outer">
+//         <div class="flex-container" id="inner"></div>
+
+//         <div class="flex-container" id="blog">
+//           <Routes>
+//           </Routes>
+//           <Footer />
+//         </div>
+
+//         <div class="flex-container" id="inner" />
+//       </div>
+//       <div class="flex-container" id="outer" />
+//     </div>
+//   );
+// }
 
 const fontStyles = `
     @font-face {
@@ -159,7 +149,7 @@ function App() {
         <Route path="/*" element={<AppRoutes />} />
         <Route path="/reading/*" element={<LogRoutes />} />
         <Route path="/blogs/*" element={<BlogRoutes />} />
-        <Route path="/about/*" element={<AboutRoutes />} />
+        {/* <Route path="/about/*" element={<AboutRoutes />} /> */}
       </Routes>
     </div>
   );

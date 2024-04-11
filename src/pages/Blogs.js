@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import AboutNavBar from "../components/blog_navbar";
 
 
-function About() {
+function Blog() {
   useEffect(() => {
     document.title = "Blogs";
   }, []);
@@ -10,7 +10,7 @@ function About() {
   return (
     <div>
       <div class="flex-container" id="blog_header_card">
-        <h4 id="blog_header">blog</h4>
+        <h4 id="blog_header">Blogs</h4>
         <AboutNavBar></AboutNavBar>
       </div>
 
@@ -18,4 +18,4 @@ function About() {
   );
 }
 
-export default About;
+export default Blog;
