@@ -47,7 +47,9 @@ function Home() {
       </p>
 
       <p>
-          In the past, I've worked at Joinable <a href="https://www.joinable.us/" className="clickable"> </a>, 
+          In the past, I've worked at <a href="https://www.joinable.us/">Joinable</a>, 
+
+           <a href="https://www.joinable.us/" className="clickable"> </a>, 
           Fidelity Investments <a href="https://www.fidelity.com/" className="clickable"> </a>, 
           H10AI <a href="https://www.h10ai.com/" className="clickable"> </a>, 
           Creatiers, 
