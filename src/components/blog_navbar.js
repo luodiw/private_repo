@@ -19,8 +19,8 @@ function BlogNavBar() {
       <nav>
         <nobr>
           <NavLink to="/">home</NavLink> |
-          <NavLink to="/blog">blog</NavLink>{" "}
-          | <NavLink to="/projects">projects</NavLink> |{" "}
+          <NavLink to="/blogs">blogs</NavLink>{" "}
+          <NavLink to="/projects">projects</NavLink> |{" "}
           <NavLink to="/reading">reading</NavLink> |{" "}
 
           <CSSTransition
