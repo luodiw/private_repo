@@ -89,26 +89,6 @@ function BlogRoutes() {
   );
 }
 
-// function BlogRoutes() {
-//   return (
-//     <div>
-//       <div class="flex-container" id="outer" />
-//       <div class="flex-container" id="outer">
-//         <div class="flex-container" id="inner"></div>
-
-//         <div class="flex-container" id="blog">
-//           <Routes>
-//           </Routes>
-//           <Footer />
-//         </div>
-
-//         <div class="flex-container" id="inner" />
-//       </div>
-//       <div class="flex-container" id="outer" />
-//     </div>
-//   );
-// }
-
 const fontStyles = `
     @font-face {
       font-family: 'My Custom Font';
@@ -149,7 +129,6 @@ function App() {
         <Route path="/*" element={<AppRoutes />} />
         <Route path="/reading/*" element={<LogRoutes />} />
         <Route path="/blogs/*" element={<BlogRoutes />} />
-        {/* <Route path="/about/*" element={<AboutRoutes />} /> */}
       </Routes>
     </div>
   );
