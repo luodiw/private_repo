@@ -13,7 +13,7 @@ function Reading() {
         <h4 id="blog_header">what I'm reading now</h4>
         <BlogNavBar></BlogNavBar>
       </div>
-      <img src="/james_turrell_skyspace.jpg" alt="it's me!" width="200" height="auto" />
+      <img src="/james_turrell_skyspace.jpg" alt="deep thoughts" width="200" height="auto" />
 
       <p>
         my {" "}
