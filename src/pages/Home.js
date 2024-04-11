@@ -51,15 +51,15 @@ function Home() {
         <a href="https://www.joinable.us/" class="clickable whitespace-pre" className="clickable" target="_blank">
           Joinable
         </a>,
-        <a href="https://www.fidelity.com/" class="clickable whitespace-pre" className="clickable" target="_blank">
-        {" "} Fidelity Investments
+        {" "}<a href="https://www.fidelity.com/" className="clickable" target="_blank">
+        Fidelity Investments
         </a>,
-        <a href="https://www.h10ai.com" class="clickable whitespace-pre" className="clickable" target="_blank">
-        {" "} H10 AI
+        {" "}<a href="https://www.h10ai.com" class="clickable whitespace-pre" className="clickable" target="_blank">
+        H10 AI
         </a>,
         {" "} Creatiers,
-        <a href="https://oasisprotocol.org/" class="clickable whitespace-pre" className="clickable" target="_blank">
-        {" "} Oasis Network
+        {" "}<a href="https://oasisprotocol.org/" class="clickable whitespace-pre" className="clickable" target="_blank">
+        Oasis Network
         </a>, and I've also founded and sold a few startups.
         </p>
           
