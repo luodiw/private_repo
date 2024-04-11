@@ -60,12 +60,14 @@ function Home() {
         Creatiers,
         <a href="https://oasisprotocol.org/" className="clickable" target="_blank">
         Oasis Network
-        </a>,
-        and I've also founded and sold a few startups.
+        </a>, and I've also founded and sold a few startups.
+
+        </p>
           
+        <p>
           I love building things and toys that give me and others joy, fun, inspiration, creativity. Beyond engineering, 
           I also make run, moutain bike, play lots of poker, and make art.
-      </p>
+        </p>
 
       <p>
         I'm currently pursuing a bachelors of science in computer science and a minor in math at {" "}
